@@ -6,7 +6,7 @@
     <link href="https://fonts.googleapis.com/css?family=EB+Garamond|Unlock" rel="stylesheet">
     <title>This Teenage Life</title>
     <style>
-    body {
+        body {
         margin: 0;
     }
 
@@ -19,7 +19,7 @@
         background-image: url(imgs/purple-background1.png);
         background-size: cover;
         background-repeat: no-repeat;
-        opacity: 0.5;
+       
         font-family: 'EB Garamond', serif;
 
 
@@ -42,21 +42,23 @@
     }
 
     #section3 {
+		height:200%;
 
         top: 200%;
+          background-repeat: repeat;
 
 
     }
 
     #section4 {
+        top: 400%;
 
-        top: 300%;
 
 
     }
 
     #cover-art {
-    	top:0%;
+        top: 0%;
         width: 80%;
         left: 20%;
         height: 100%;
@@ -66,13 +68,13 @@
         position: absolute;
         z-index: 1.0;
         font-size: 72px;
-/*        background-position: center;
+        /*        background-position: center;
 */
     }
 
 
-        #bar {
-        padding-left: 5%;
+    #bar {
+        padding-left: 2%;
         width: 15%;
         height: 100%;
         top: 0%;
@@ -80,7 +82,8 @@
         background-color: rgba(245, 245, 245, 0.5);
         color: rgb(105, 105, 105);
         font-family: 'Unlock', cursive;
-        font-size: 3vw;}
+        font-size: 3vw;
+    }
 
 
     .textbox {
@@ -95,31 +98,71 @@
         font-size: 2.4vw;
     }
 
-    #episodes {
+    #episode-images{
+    	height:100%;
+    	width:20%;
+    	z-index: 3;
+    	position:absolute;
+    	left:17%;
+    	
+    }
+
+     .episode-image{
+    	height:20vw;
+    	width:100%;
+    	margin-top:10%;
+    	margin-bottom:10%;
+    	position:relative;
+    	background-size:cover;
+    	background-repeat: no-repeat;    	
+    	z-index: 3;
+    	/*padding-top:5%;*/
+    }
+
+    #superstitions{
+    	background-image:url(./imgs/superstitions.png);
+    	
+    }
+
+     #childhood{
+    	background-image:url(./imgs/childhood.png);
+    	background-position:50% 50%;
+    	
+    }
+
+
+       #death{
+    	background-image:url(./imgs/death.png);
+    	
+    }
+
+    #episode-text {
+    	left:40%;
         text-decoration: none;
         font-family: 'EB Garamond', serif;
         z-index: 2;
+        font-size: 2.2vw;
+
 
 
     }
 
     @media (max-device-width: 667px) {
 
-    	section{
-    		height:50%;
-    	}
+        section {
+            height: 50%;
+        }
 
-    	#section2{
-    		top:50%;
-    	}
+        #section2 {
+            top: 50%;
+        }
 
-    	#section3{
-    		top:100%;
-    	}
+        #section3 {
+            top: 100%;
+            height:200%;
+        }
 
-    	#section4{
-    		top:150%;
-    	}
+       
 
 
     }
@@ -148,47 +191,48 @@
         <br><br><br>
         <a href="#section5">Blog</a>
         <br><br><br>
-       <!--  <a href="https://youtu.be/uGgiNc2zuS4">Making of…</a> -->
+        <!--  <a href="https://youtu.be/uGgiNc2zuS4">Making of…</a> -->
     </div>
     <div id="cover-art"></div>
     <section id="section2">
         <div class="textbox" id="about">
             <span style="color:rgb(88,88,88); font-size:4vw; font-family: 'Unlock', cursive;
-">This Teenage Life</span> is a podcast about the ideas and stories from teenagers in the middle of their own growth as humans as they have unique perspectives on the world around them. The episodes that you’ll hear, and the people that you’ll meet, are meant to be related to, laughed at, and most of all offer a connection to whoever is listening.  
-<br><br>
-For us, it's also a way to process what we feel and think. We all have our experiences and sharing them with those you feel comfortable with makes the world a little less big, and a little more loved. 
-
-<br><br>
-
-We hope that after listening to these stories you feel the same way.
+">This Teenage Life</span> is a podcast about the ideas and stories from teenagers in the middle of their own growth as humans as they have unique perspectives on the world around them. The episodes that you’ll hear, and the people that you’ll meet, are meant to be related to, laughed at, and most of all offer a connection to whoever is listening.
+            <br><br>
+            For us, it's also a way to process what we feel and think. We all have our experiences and sharing them with those you feel comfortable with makes the world a little less big, and a little more loved.
+            <br><br>
+            We hope that after listening to these stories you feel the same way.
             — Cloe Moreno
         </div>
     </section>
     <section id="section3">
-        <div class="textbox" id="episodes">
-            <p><span style="font-size:4.5vw; font-family: 'Unlock', cursive;">
+        <div id="episode-images">
+            <div class="episode-image" id="superstitions">
+            </div>
+            <div class="episode-image" id="childhood">
+            </div>
+            <div class="episode-image" id="death">
+            </div>
+        </div>
+        <div class="textbox" id="episode-text">
+            <p><span style="font-size:4vw; font-family: 'Unlock', cursive;">
             	<a href="https://cl.ly/8a671449f401">Superstitions </a></span>is an episode about weird habits that we do but don't usually admit to doing, even ourselves.</p>
             <br><br>
             <p>
-                <span style="font-size:4.5vw; font-family: 'Unlock', cursive;"> <a href="https://cl.ly/ed2df4ca5437">Being a kid — </a></span> the lack of responsibility. The ignorant bliss. In this episode, we talk about when things weren't so serious. We talk about what we miss about childhood.</p>
-            <br><br><br>
+                <span style="font-size:4vw; font-family: 'Unlock', cursive;"> <a href="https://cl.ly/ed2df4ca5437">Being a kid — </a></span> the lack of responsibility, the ignorant bliss. In this episode, we talk about when things weren't so serious. We talk about what we miss about childhood.</p>
+            <br><br>
+            <p>
+                <span style="font-size:4vw; font-family: 'Unlock', cursive;"> <a href="https://cl.ly/ed2df4ca5437">Death</a></span> is hard to wrap your head around. When were kids, we tended to obsess about it. Now we're thinking about it less, but it's still there, obviously. In this episode, we talk about our existential feelings about mortality.</p>
+            <br><br>
         </div>
     </section>
     <section id="section4">
         <div id="team">
-
-	<div
-	>
-		
-	</div>        	
-
+            <div>
+            </div>
         </div>
-
     </section>
-
-    <script>
-    	
-    </script>
+    <script type="text/javascript" src="jquery.js"></script>
 </body>
 
 </html>
