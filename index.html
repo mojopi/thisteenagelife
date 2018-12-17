@@ -12,7 +12,7 @@
 
     section {
         width: 100%;
-        height: 800px;
+        height: 100%;
         z-index: -1;
         margin: 0;
         position: absolute;
@@ -38,38 +38,49 @@
     }
 
     #section2 {
-        top: 800px;
+        top: 100%;
     }
 
     #section3 {
 
-        top: 1600px;
+        top: 200%;
 
 
     }
 
     #section4 {
 
-        top: 2400px;
+        top: 300%;
 
 
     }
 
     #cover-art {
-        width: 90%;
-        left: 15%;
-        height: 90%;
+    	top:0%;
+        width: 80%;
+        left: 20%;
+        height: 100%;
         background-image: url(./imgs/web-art1.png);
         background-size: contain;
         background-repeat: no-repeat;
         position: absolute;
         z-index: 1.0;
         font-size: 72px;
-        background-position: center;
-
+/*        background-position: center;
+*/
     }
 
 
+        #bar {
+        padding-left: 5%;
+        width: 15%;
+        height: 100%;
+        top: 0%;
+        position: fixed;
+        background-color: rgba(245, 245, 245, 0.5);
+        color: rgb(105, 105, 105);
+        font-family: 'Unlock', cursive;
+        font-size: 3vw;}
 
 
     .textbox {
@@ -77,20 +88,14 @@
         width: 55%;
         left: 30%;
         position: absolute;
-        padding-top: 10%;
+        padding-top: 5%;
     }
 
     #about {
-        font-size: 40px;
-        padding-top: 10%;
-        font-size: 30px;
-
-
+        font-size: 2.4vw;
     }
 
     #episodes {
-        padding-top: 10%;
-        font-size: 30px;
         text-decoration: none;
         font-family: 'EB Garamond', serif;
         z-index: 2;
@@ -98,17 +103,28 @@
 
     }
 
+    @media (max-device-width: 667px) {
 
-    #bar {
-        padding-left: 5%;
-        width: 200px;
-        height: 800px;
-        top: 0%;
-        position: fixed;
-        background-color: rgba(245, 245, 245, 0.5);
-        color: rgb(105, 105, 105);
-        font-family: 'Unlock', cursive;
-        font-size: 35px;
+    	section{
+    		height:50%;
+    	}
+
+    	#section2{
+    		top:50%;
+    	}
+
+    	#section3{
+    		top:100%;
+    	}
+
+    	#section4{
+    		top:150%;
+    	}
+
+
+    }
+
+
 
 
 
@@ -121,38 +137,58 @@
     <section id="section1">
     </section>
     <div id="bar">
-        <br><br><br><br>
+        <br><br>
         <a href="#section2">About</a>
         <br><br><br>
         <a href="#section3">Episodes</a>
         <br><br><br>
-        <a href="#section4">The Team</a>
+        <a href="#section4">Team</a>
         <br><br><br>
         <a href="sessions.html">Sessions</a>
         <br><br><br>
-        <a href="https://youtu.be/uGgiNc2zuS4">Making of…</a>
+        <a href="#section5">Blog</a>
+        <br><br><br>
+       <!--  <a href="https://youtu.be/uGgiNc2zuS4">Making of…</a> -->
     </div>
     <div id="cover-art"></div>
     <section id="section2">
         <div class="textbox" id="about">
-            <span style="color:rgb(88,88,88); font-size:50px; font-family: 'Unlock', cursive;
-">This Teenage Life</span> is a podcast about the ideas and stories from teenagers in the middle of their own growth as humans and have unique perspectives on the world around them. The episodes that you’ll hear, and the people that you’ll meet, are meant to be related to, laughed at, and most of all offer a connection to whoever is listening. We all have our experiences and sharing them with those you feel comfortable with makes the world a little less big, and a little more loved. We hope that after listening to these stories you feel the same way.
+            <span style="color:rgb(88,88,88); font-size:4vw; font-family: 'Unlock', cursive;
+">This Teenage Life</span> is a podcast about the ideas and stories from teenagers in the middle of their own growth as humans as they have unique perspectives on the world around them. The episodes that you’ll hear, and the people that you’ll meet, are meant to be related to, laughed at, and most of all offer a connection to whoever is listening.  
+<br><br>
+For us, it's also a way to process what we feel and think. We all have our experiences and sharing them with those you feel comfortable with makes the world a little less big, and a little more loved. 
+
+<br><br>
+
+We hope that after listening to these stories you feel the same way.
             — Cloe Moreno
         </div>
     </section>
     <section id="section3">
         <div class="textbox" id="episodes">
-            <p><span style="font-size:50px; font-family: 'Unlock', cursive;">
+            <p><span style="font-size:4.5vw; font-family: 'Unlock', cursive;">
             	<a href="https://cl.ly/8a671449f401">Superstitions </a></span>is an episode about weird habits that we do but don't usually admit to doing, even ourselves.</p>
-            <br><br><br>
+            <br><br>
             <p>
-                <span style="font-size:50px; font-family: 'Unlock', cursive;"> <a href="https://cl.ly/ed2df4ca5437">Being a kid — </a></span> the lack of responsibility. The ignorant bliss. In this episode, we talk about when things weren't so serious. We talk about what we miss about childhood.</p>
+                <span style="font-size:4.5vw; font-family: 'Unlock', cursive;"> <a href="https://cl.ly/ed2df4ca5437">Being a kid — </a></span> the lack of responsibility. The ignorant bliss. In this episode, we talk about when things weren't so serious. We talk about what we miss about childhood.</p>
             <br><br><br>
         </div>
     </section>
     <section id="section4">
-        <div id="team"></div>
+        <div id="team">
+
+	<div
+	>
+		
+	</div>        	
+
+        </div>
+
     </section>
+
+    <script>
+    	
+    </script>
 </body>
 
 </html>
