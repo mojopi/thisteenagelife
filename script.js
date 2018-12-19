@@ -54,4 +54,4 @@ document.getElementById('name8').innerText = "Avery";
 document.getElementById('name9').innerText = "Penelope";
 document.getElementById('name10').innerText = "Molly J.";
 
-// document.getElementById('description0').innerHTML = "hello";
+document.getElementById('description0').innerHTML = "hello";
