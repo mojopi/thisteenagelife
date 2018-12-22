@@ -200,6 +200,8 @@ a {
 
 
 .description-apparent {
+    font-size: 18px;
+
     top: 0%;
     left: 0%;
     width: 90%;
@@ -266,9 +268,26 @@ a {
     transition: 1.5s ease-in-out;
 }
 
+#headshot5 {
+    background-image: url(./imgs/shakara.jpg);
+}
+
+#headshot6 {
+    background-image: url(./imgs/isabella.jpg);
+}
+
+#headshot7 {
+    background-image: url(./imgs/kieran.jpg);
+
+}
 
 #headshot8 {
     background-image: url(./imgs/avery.jpg);
+
+}
+
+#headshot9 {
+    background-image: url(./imgs/penelope.jpg);
 
 }
 
@@ -283,12 +302,11 @@ a {
 
 .name {
     z-index: 10;
-    height: 4vw;
-    width: 110%;
+    width: 100%;
     text-align: center;
     position: absolute;
     top: 110%;
-    font-size: 3.0vw;
+    font-size: 2.5vw;
     font-family: "'EB Garamond', serif";
     color: rgb(105, 105, 105);
 
