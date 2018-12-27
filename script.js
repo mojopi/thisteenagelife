@@ -40,15 +40,41 @@ function makeHeadshot(d) {
 
 
 
-for (i = 0; i < 11; i++) { makeHeadshot(i)};
+for (i = 0; i < 11; i++) { makeHeadshot(i) };
 
 
 document.getElementById('name0').innerText = "Olivia";
 document.getElementById('name1').innerText = "Cloe";
+
+var headshot1 = document.getElementById('headshot1');
+var cloeSong = document.getElementById('cloeSong');
+
+headshot1.addEventListener('mouseenter', function() {
+    cloeSong.play()
+})
+headshot1.addEventListener('mouseout', function() {
+    cloeSong.pause()
+})
+
+
 document.getElementById('name2').innerText = "Molly Z.";
 document.getElementById('name3').innerText = "Tessa";
 document.getElementById('name4').innerText = "Taylor";
 document.getElementById('name5').innerText = "Shakara";
+
+var headshot5 = document.getElementById('headshot5');
+var heart = document.createElement('div');
+heart.id="heart"
+headshot5.appendChild(heart);
+
+headshot5.addEventListener('mouseenter', function() {
+    heart.style.opacity = "1";
+
+})
+headshot5.addEventListener('mouseout', function() {
+    heart.style.opacity = "0";
+})
+
 document.getElementById('name6').innerText = "Isabella";
 document.getElementById('name7').innerText = "Kieran";
 document.getElementById('name8').innerText = "Avery";
@@ -57,6 +83,4 @@ document.getElementById('name10').innerText = "Molly J.";
 document.getElementById('description0').innerHTML = "hello";
 
 
-document.getElementById('description1').innerHTML = "Age:17 <br> Fav #: 27" ;
-
-
+document.getElementById('description1').innerHTML = "Age:17 <br> Fav #: 27";
