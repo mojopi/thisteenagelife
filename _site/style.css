@@ -1,0 +1,423 @@
+body {
+    margin: 0;
+}
+
+section {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    margin: 0;
+    position: absolute;
+    background-image: url(imgs/purple-background1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'EB Garamond', serif;
+
+
+}
+
+a {
+    color: rgb(105, 105, 105);
+
+    text-decoration: none;
+}
+
+#section1 {
+    top: 0%;
+
+
+}
+
+#section2 {
+    top: 100%;
+}
+
+#section3 {
+    height: 200%;
+    top: 200%;
+    background-repeat: repeat;
+
+
+}
+
+#section4 {
+    top: 400%;
+    height: 200%;
+
+}
+
+#cover-art {
+    top: 0%;
+    width: 80%;
+    left: 20%;
+    height: 100%;
+    background-image: url(./imgs/web-art1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 1.0;
+    font-size: 72px;
+    /*        background-position: center;
+*/
+}
+
+
+#bar {
+    padding-left: 2%;
+    width: 15%;
+    height: 100%;
+    top: 0%;
+    position: fixed;
+    background-color: rgba(245, 245, 245, 0.5);
+    color: rgb(105, 105, 105);
+    font-family: 'Unlock', cursive;
+    font-size: 3vw;
+}
+
+
+.textbox {
+    z-index: 1;
+    width: 55%;
+    left: 30%;
+    position: absolute;
+    padding-top: 5%;
+}
+
+#about {
+    font-size: 2.4vw;
+}
+
+#episode-images {
+    height: 100%;
+    width: 20%;
+    z-index: 3;
+    position: absolute;
+    left: 17%;
+
+}
+
+.episode-image {
+    height: 20vw;
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 3;
+    /*padding-top:5%;*/
+}
+
+#superstitions {
+    background-image: url(./imgs/superstitions.png);
+
+}
+
+#childhood {
+    background-image: url(./imgs/childhood.png);
+    background-position: 50% 50%;
+
+}
+
+
+#death {
+    background-image: url(./imgs/death.png);
+
+}
+
+#episode-text {
+    left: 40%;
+    text-decoration: none;
+    font-family: 'EB Garamond', serif;
+    z-index: 2;
+    font-size: 2.2vw;
+
+
+
+}
+
+#team {
+    position: relative;
+    left: 17%;
+    /*z-index: 2;*/
+    width: 80%;
+    height: 100%;
+    padding: 2%;
+}
+
+.headshot {
+    background-color: rgba(245, 245, 245, 0.5);
+    width: 15vw;
+    height: 15vw;
+
+    position: relative;
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10%;
+    top: 0%;
+    left: 0%;
+    margin-right: 2%;
+    margin-bottom: 10%;
+
+    background-color: rgb(176, 176, 176);
+    border: 1px grey solid;
+
+    -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+
+
+
+
+.description-invisible {
+    color: rgb(176, 176, 176);
+    background-image: url(./imgs/watercolor.png);
+    background-size: cover;
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    border-radius: 10%;
+    top: 0%;
+    left: 0%;
+    z-index: 10;
+    opacity: 0;
+    padding: 5%;
+    font-size: 1vw;
+    font-family: ariel;
+    text-align: center;
+    vertical-align: top;
+
+}
+
+
+
+
+
+.description-apparent {
+    font-size: 18px;
+
+    top: 0%;
+    left: 0%;
+    width: 90%;
+    height: 90%;
+    transition: ease-in-out 1s;
+    animation-name: fade;
+    animation-duration: 15s;
+    background-color: rgb(176, 176, 176) width: 100%;
+    height: 100%;
+    ;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 1.0;
+    }
+
+
+    90% {
+        opacity: 1.0;
+    }
+
+
+    100% {
+        opacity: 0;
+    }
+
+
+
+}
+
+#headshot0 {
+    background-image: url(./imgs/olivia.jpg);
+
+}
+
+#headshot0:hover{
+    border-radius:50%;
+}
+
+#headshot1 {
+    background-image: url(./imgs/cloe.jpg);
+
+
+}
+
+#headshot1:hover {
+        background-image: url(./imgs/cloe2.png);
+    animation-name: size-change;
+    animation-duration: 1s;
+    animation-iteration-count: 10;
+    background-color:turquoise;
+}
+
+@keyframes size-change {
+
+    0% {
+        width: 15vw;
+        height: 15vw;
+    }
+
+    50% {
+
+        width: 18vw;
+        height: 18vw;
+    }
+
+    100% {
+        width: 15vw;
+        height: 15vw;
+    }
+
+}
+
+
+#headshot2 {
+    background-image: url(./imgs/mollyz.jpg);
+
+}
+
+#headshot2:hover {
+    background-image: url(./imgs/mollyz2.png);
+    background-color:white;
+
+}
+
+
+#headshot3 {
+    background-image: url(./imgs/tessa.jpg);
+
+}
+
+#headshot4 {
+    background-image: url(./imgs/taylor.jpg);
+
+}
+
+#headshot4:hover {
+    background-image: url(./imgs/taylor2.jpg);
+
+    transition: 1.5s ease-in-out;
+}
+
+#headshot5 {
+    background-image: url(./imgs/shakara.jpg);
+}
+
+#heart {
+    z-index: 10;
+    position:relative;
+    top:60%;
+    left:15%;
+    width:5vw;
+    height: 5vw;
+    background-repeat:no-repeat;
+    background-size: contain;
+    background-image: url('./imgs/heart.png');
+    opacity:0;
+
+}
+
+#headshot6 {
+    background-image: url(./imgs/isabella.jpg);
+}
+
+#headshot7 {
+    background-image: url(./imgs/kieran.jpg);
+
+}
+
+#headshot8 {
+    background-image: url(./imgs/avery.jpg);
+
+}
+
+#headshot9 {
+    background-image: url(./imgs/penelope.jpg);
+
+}
+
+#headshot9:hover {
+    transform: rotate(720deg);
+    background-image: url(./imgs/penelope2.jpg);
+
+
+
+}
+
+#headshot10 {
+    background-image: url(./imgs/mollyj.jpg);
+
+}
+
+
+
+
+#headshot10:hover {
+    background-image: url(./imgs/mollyj10.jpg);
+    animation-transition: linear;
+
+}
+
+
+
+
+
+.name {
+    z-index: 10;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 110%;
+    font-size: 2.5vw;
+    font-family: "'EB Garamond', serif";
+    color: rgb(105, 105, 105);
+
+}
+
+
+
+
+
+
+@media (max-device-width: 667px) {
+
+    section {
+        height: 50%;
+        width: 100%;
+    }
+
+    #section2 {
+        top: 50%;
+    }
+
+    #section3 {
+        top: 100%;
+        height: 150%;
+    }
+
+    #section4 {
+        top: 200%;
+        height: 100%;
+    }
+
+
+
+
+}
+
+
+
+
+
+
+}
