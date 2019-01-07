@@ -350,20 +350,16 @@ a {
     transform: rotate(720deg);
     background-image: url(./imgs/penelope2.jpg);
 
-
-
 }
 
 #headshot10 {
-    background-image: url(./imgs/mollyj.jpg);
+    background-image: url(./imgs/mollyj1.jpg);
 
 }
 
 
-
-
 #headshot10:hover {
-    background-image: url(./imgs/mollyj10.jpg);
+    background-image: url(./imgs/mollyj2.jpg);
     animation-transition: linear;
 
 }
