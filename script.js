@@ -40,7 +40,7 @@ function makeHeadshot(d) {
 
 
 
-for (i = 0; i < 11; i++) { makeHeadshot(i) };
+for (i = 0; i < 12; i++) { makeHeadshot(i) };
 
 
 document.getElementById('name0').innerText = "Olivia";
@@ -80,7 +80,9 @@ document.getElementById('name7').innerText = "Kieran";
 document.getElementById('name8').innerText = "Avery";
 document.getElementById('name9').innerText = "Penelope";
 document.getElementById('name10').innerText = "Molly J.";
-document.getElementById('description0').innerHTML = "hello";
+document.getElementById('name11').innerText = "Ashlen";
+
+document.getElementById('description11').innerHTML = "Ashlen is a Queer, latinX millenial who spends free time psychoanalyzing her friends & crushing her fitness goals.";
 
 
 document.getElementById('description1').innerHTML = "Age:17 <br> Fav #: 27";
