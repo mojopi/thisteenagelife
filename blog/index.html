@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Unlock" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond|Unlock" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Caveat|Permanent+Marker" rel="stylesheet">
+    <style>/*	betwen the things that say <style> is where you do styling
+*/	
+        body{
+	margin:0;
+}
+
+	section{
+		width:100%;
+		height:100%;
+			position:absolute;
+		background-repeat: no-repeat;
+			background-size:cover;
+			z-index: -1;
+
+	}
+
+	#bar {
+    padding-left: 2%;
+    width: 10%;
+    height: 100%;
+    top: 0%;
+    position: fixed;
+    color:black;
+/*    background-color:rgba(238,130,238, 0.5);
+;*/
+    font-family: 'Unlock', cursive;
+    font-size: 2vw;
+}
+
+a{
+    color:violet;
+/*	color: rgb(105, 105, 105);
+*/	text-decoration:none;
+}
+
+#next-button{
+	font-size:60px;
+	position:absolute;
+	z-index: 2;
+	top:0%;
+	left:70%;
+    font-family: 'Permanent Marker', cursive;
+
+
+}
+
+
+#section2{
+
+	top:100%;
+	background-image: url(./imgs/cheese.jpg);
+	
+}
+
+.text{
+	left:22%;
+	top:10%;
+	font-size:18px;
+	line-height:1.5;
+	z-index: 2;
+	position: relative;
+	background-size:contain;
+
+
+}
+
+#text-cheese{
+	padding:20px;
+	background-repeat: no-repeat;
+	width:460px;
+	height:600px;
+	background-image:url(imgs/cheese2.png);
+	opacity:0;
+
+font-size:25px;
+	/*background-color:rgba(255, 177, 0, 0.3);*/
+}
+
+#text{
+	width:60%;
+	position:relative;
+	left:15%;
+	top:10%;
+	font-family: 'Permanent Marker', cursive;
+	color:white;
+
+}
+
+
+
+	</style>
+    <title>blog</title>
+</head>
+
+<body>
+    <div id="bar">
+        <br>
+        <a href="#section2">grilled🧀</a>
+        <br><br>
+        <a href="#section3">star☕</a>
+        <br><br>
+        <a href="#section4">thing</a>
+        <br><br>
+        <a href="#section5">thing</a>
+        <br><br>
+        <a href="#section6">thing</a>
+        <br>
+    </div>
+    <section id="section1"><p style="position:relative;left:20%;font-size:100px; font-family:'Permanent Marker', cursive;;">Description of blog!</p></section>
+    <section id="section2">
+        <div id="text-cheese" class="text">
+            <div id="text">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has  </div>
+        </div>
+        <div id="next-button">Cheese Poem</div>
+    </section>
+    <section id="section3"></section>
+    <section id="section4"></section>
+    <section id="section5"></section>
+    <section id="section6"></section>
+    <script type="text/javascript">
+    var counter = 0;
+
+    var textCheese = document.getElementById("text-cheese");
+    var button = document.getElementById("next-button");
+    button.addEventListener("click",
+
+        function() {
+            counter = counter + 1;
+            if (counter % 2 == 0) { textCheese.style.opacity = "0"; } else if (counter % 2 == 1) { textCheese.style.opacity = "1"; }
+        }
+    )
+    </script>
+    <script type="text/javascript" src="jquery.js"></script>
+</body>
+
+</html>

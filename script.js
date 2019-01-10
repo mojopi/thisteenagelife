@@ -40,7 +40,7 @@ function makeHeadshot(d) {
 
 
 
-for (i = 0; i < 12; i++) { makeHeadshot(i) };
+for (i = 0; i < 18; i++) { makeHeadshot(i) };
 
 
 document.getElementById('name0').innerText = "Olivia";
@@ -82,7 +82,20 @@ document.getElementById('name9').innerText = "Penelope";
 document.getElementById('name10').innerText = "Molly J.";
 document.getElementById('name11').innerText = "Ashlen";
 
+
+
+
 document.getElementById('description11').innerHTML = "Ashlen is a Queer, latinX millenial who spends free time psychoanalyzing her friends & crushing her fitness goals.";
 
+document.getElementById('name12').innerText = "Riley";
+document.getElementById('description12').innerHTML = "Be happy with what you have. Be excited about what you want. 😂";
+document.getElementById('name13').innerText = "Jireh";
+document.getElementById('description13').innerHTML = "The world is yours" + "<br>" + "— Tony Montana, Scarface";
 
-document.getElementById('description1').innerHTML = "Age:17 <br> Fav #: 27";
+document.getElementById('name14').innerText = "Harlan";
+document.getElementById('name15').innerText = "Shreena";
+document.getElementById('name16').innerText = "Katelynn";
+document.getElementById('name17').innerText = "Sailor";
+
+document.getElementById('description16').innerHTML = "Life is a journey to be experienced, not a problem to be solved." + "<br>" + "— Winne the Poo";
+

@@ -378,6 +378,78 @@ a {
 
 }
 
+#headshot12 {
+    background-image: url(./imgs/riley.jpg);
+
+}
+
+#headshot12:hover {
+
+        background-image: url(./imgs/wolf.jpg);
+
+
+}
+
+#headshot13 {
+    background-image: url(./imgs/jireh1.jpg);
+
+}
+
+#headshot13:hover {
+
+        background-image: url(./imgs/jireh2.jpg);
+
+
+}
+
+#headshot14 {
+    background-image: url(./imgs/harlan1.jpg);
+
+}
+
+#headshot14:hover {
+
+        background-image: url(./imgs/harlan2.jpg);
+
+
+}
+
+#headshot15 {
+    background-image: url(./imgs/shreena1.jpg);
+
+}
+
+#headshot15:hover {
+
+        background-image: url(./imgs/shreena2.jpg);
+
+
+}
+
+#headshot16 {
+    background-image: url(./imgs/katelynn1.jpg);
+
+}
+
+#headshot16:hover {
+
+        background-image: url(./imgs/katelynn2.jpg);
+
+
+}
+
+#headshot17 {
+    background-image: url(./imgs/sailor1.jpg);
+
+}
+
+#headshot17:hover {
+
+        background-image: url(./imgs/sailor2.jpg);
+
+
+}
+
 
 
 #description11{
