@@ -118,6 +118,38 @@ font-family:'Lora', serif;
     background-image:url(imgs/food-for-thought-title.png);
 }
 
+.horizontal-border{
+
+    background-image:cover;
+    position:relative;
+    left:10%;
+    width:90%;
+    height:20%;
+}
+
+#border-top{
+        background-image:url(./imgs/border1.png);
+
+
+    top:0%;
+
+}
+#border-bottom{
+    top:5%;
+        background-image:url(./imgs/border1a.png);
+            left:0%;
+            width:100%;
+
+
+
+/*    top:20%;
+*/    z-index: 5;
+    background-color: red;
+
+}
+
+
+
 
 
     </style>
@@ -129,21 +161,23 @@ font-family:'Lora', serif;
         <br>
         <a href="#section2">adobo</a>
         <br><br>
-        <a href="#section3">star☕</a>
+        <!--         <a href="#section3">star☕</a>
         <br><br>
         <a href="#section4">thing</a>
         <br><br>
         <a href="#section5">thing</a>
         <br><br>
         <a href="#section6">thing</a>
-        <br>
+        <br> -->
     </div>
     <section id="section1">
+        <div class="horizontal-border" id="border-top"></div>
         <div id="title"></div>
         <div id="about-text">
             <p>"Food For Thought" is a blog dedicated to sharing food related stories, and to understand what nourishment means to teenagers.<br> <br> This blog contains funny, traumatic, and sentimental narratives all related to what we eat. These pieces give an insight to the personalities and lives of High Tech High teenagers through the stories about what they consume. <br><br>We hope that you enjoy (savor?) your time here, bon appetit!
             </p>
         </div>
+        <div class="horizontal-border" id="border-bottom"></div>
     </section>
     <section id="section2">
         <div id="text-cheese" class="text">
