@@ -299,6 +299,11 @@ background-image: url(./imgs/olivia2.jpg);
 
 }
 
+#headshot3:hover {
+    background-image: url(./imgs/tessa2.jpg);
+
+}
+
 #headshot4 {
     background-image: url(./imgs/taylor.jpg);
 
