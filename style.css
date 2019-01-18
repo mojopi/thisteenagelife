@@ -42,7 +42,7 @@ a {
 
 #section4 {
     top: 400%;
-    height: 200%;
+    height: 300%;
 
 }
 
@@ -200,12 +200,12 @@ a {
 
 
 .description-apparent {
-    font-size: 18px;
-
+    font-size: 1.5vw;
     top: 0%;
     left: 0%;
     width: 90%;
     height: 90%;
+    text-align: left;
     transition: ease-in-out 1s;
     animation-name: fade;
     animation-duration: 15s;
@@ -238,12 +238,13 @@ a {
 }
 
 #headshot0 {
-    background-image: url(./imgs/olivia.jpg);
+    background-image: url(./imgs/olivia1.jpg);
 
 }
 
 #headshot0:hover {
-    border-radius: 50%;
+background-image: url(./imgs/olivia2.jpg);
+
 }
 
 #headshot1 {
@@ -253,10 +254,10 @@ a {
 }
 
 #headshot1:hover {
-    background-image: url(./imgs/cloe2.png);
-    animation-name: size-change;
+    background-image: url(./imgs/cloe2.jpg);
+    /*animation-name: size-change;
     animation-duration: 1s;
-    animation-iteration-count: 10;
+    animation-iteration-count: 10;*/
     background-color: turquoise;
 }
 
@@ -287,7 +288,7 @@ a {
 }
 
 #headshot2:hover {
-    background-image: url(./imgs/mollyz2.png);
+    background-image: url(./imgs/mollyz2.jpg);
     background-color: white;
 
 }
@@ -336,8 +337,18 @@ a {
 
 }
 
+#headshot7:hover {
+    background-image: url(./imgs/kieran2.jpg);
+
+}
+
 #headshot8 {
     background-image: url(./imgs/avery.jpg);
+
+}
+
+#headshot8:hover {
+    background-image: url(./imgs/avery2.jpg);
 
 }
 
@@ -347,8 +358,12 @@ a {
 }
 
 #headshot9:hover {
-    transform: rotate(720deg);
-    background-image: url(./imgs/penelope2.JPG);
+    background-image: url(./imgs/penelope2.jpg);
+
+}
+
+#description9 {
+    font-size: 1.3vw;
 
 }
 
@@ -370,11 +385,17 @@ a {
 }
 
 
-
-
 #headshot11:hover {
     background-image: url(./imgs/ashlen2.jpg);
     animation-transition: linear;
+
+}
+
+
+
+#description11 {
+    text-align: left;
+    font-family: 'Caveat', cursive;
 
 }
 
@@ -385,7 +406,7 @@ a {
 
 #headshot12:hover {
 
-        background-image: url(./imgs/wolf.jpg);
+    background-image: url(./imgs/wolf.jpg);
 
 
 }
@@ -397,7 +418,7 @@ a {
 
 #headshot13:hover {
 
-        background-image: url(./imgs/jireh2.jpg);
+    background-image: url(./imgs/jireh2.jpg);
 
 
 }
@@ -409,7 +430,7 @@ a {
 
 #headshot14:hover {
 
-        background-image: url(./imgs/harlan2.jpg);
+    background-image: url(./imgs/harlan2.jpg);
 
 
 }
@@ -421,7 +442,7 @@ a {
 
 #headshot15:hover {
 
-        background-image: url(./imgs/shreena2.jpg);
+    background-image: url(./imgs/shreena2.jpg);
 
 
 }
@@ -433,10 +454,21 @@ a {
 
 #headshot16:hover {
 
-        background-image: url(./imgs/katelynn2.jpg);
+    background-image: url(./imgs/katelynn2.jpg);
 
 
 }
+
+
+#description16 {
+
+font-family: 'Crimson Text', serif;
+
+
+}
+
+
+
 
 #headshot17 {
     background-image: url(./imgs/sailor1.jpg);
@@ -445,19 +477,106 @@ a {
 
 #headshot17:hover {
 
-        background-image: url(./imgs/sailor2.jpg);
+    background-image: url(./imgs/sailor2.jpg);
+
+
+}
+
+#headshot18 {
+    background-image: url(./imgs/james1.jpg);
+
+}
+
+#headshot18:hover {
+
+    background-image: url(./imgs/james2.jpg);
+
+
+}
+
+#headshot19 {
+    background-image: url(./imgs/sasha1.jpg);
+
+}
+
+#headshot19:hover {
+
+    background-image: url(./imgs/sasha2.jpg);
+    
 
 
 }
 
 
+#headshot20 {
+    background-image: url(./imgs/christian1.jpg);
 
-#description11{
-    font-size:1.5em;
-    text-align:left;
-/*    font-family: 'Permanent Marker', cursive;
-*/
-font-family: 'Caveat', cursive;
+}
+
+
+#description20 {
+
+    font-family: 'Amatic SC', cursive;
+
+}
+
+#headshot20:hover {
+
+    background-image: url(./imgs/christian2.jpg);
+
+}
+
+
+
+
+#headshot21 {
+
+    background-image: url(./imgs/jackson1.jpg);
+
+}
+
+#headshot21:hover {
+
+    background-image: url(./imgs/jackson2.jpg);
+
+
+}
+
+
+#headshot22 {
+
+    background-image: url(./imgs/hayden1.jpg);
+        background-position:0% 101%;
+
+
+}
+
+#headshot22:hover {
+
+    background-image: url(./imgs/hayden2.jpg);
+
+
+}
+
+
+#headshot24 {
+    background-position:0% 3%;
+
+    background-image: url(./imgs/chloe1.jpg);
+
+}
+
+#headshot26 {
+
+    background-image: url(./imgs/edgar1.jpg);
+
+
+}
+
+#headshot26:hover {
+
+    background-image: url(./imgs/edgar2.jpg);
+
 
 }
 
@@ -481,7 +600,7 @@ font-family: 'Caveat', cursive;
 
 @media (max-device-width: 667px) {
 
-    section {
+    #section1 {
         height: 50%;
         width: 100%;
     }
