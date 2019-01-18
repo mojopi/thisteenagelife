@@ -48,6 +48,7 @@ a {
 
 #cover-art {
     top: 0%;
+
     width: 80%;
     left: 20%;
     height: 100%;
@@ -78,7 +79,7 @@ a {
 .textbox {
     z-index: 1;
     width: 55%;
-    left: 30%;
+    left: 40%;
     position: absolute;
     padding-top: 5%;
 }
@@ -102,9 +103,10 @@ a {
     margin-top: 10%;
     margin-bottom: 10%;
     position: relative;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     z-index: 3;
+
     /*padding-top:5%;*/
 }
 
@@ -119,9 +121,15 @@ a {
 
 }
 
+#dreams {
+    background-image: url(./imgs/dreams.png);
+    left:5%;
+
+}
 
 #death {
     background-image: url(./imgs/death.png);
+    background-image:contain;
 
 }
 
