@@ -127,6 +127,12 @@ a {
 
 }
 
+#self-doubt {
+    background-image: url(./imgs/self-doubt.png);
+    
+
+}
+
 #death {
     background-image: url(./imgs/death.png);
     background-image:contain;
