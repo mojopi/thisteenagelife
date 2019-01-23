@@ -28,11 +28,11 @@ a {
 
 }
 
-#section2 {
+#about {
     top: 100%;
 }
 
-#section3 {
+#episodes {
     height: 200%;
     top: 200%;
     background-repeat: repeat;
@@ -40,7 +40,7 @@ a {
 
 }
 
-#section4 {
+#team {
     top: 400%;
     height: 300%;
 
@@ -84,7 +84,7 @@ a {
     padding-top: 5%;
 }
 
-#about {
+#aboutB {
     font-size: 2.4vw;
 }
 
@@ -150,7 +150,7 @@ a {
 
 }
 
-#team {
+#faces {
     position: relative;
     left: 17%;
     /*z-index: 2;*/
