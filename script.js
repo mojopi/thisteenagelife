@@ -1,9 +1,9 @@
 function makeHeadshot(d) {
     var headshot = document.createElement("div");
-    var team = document.getElementById("team")
+    var faces = document.getElementById("faces")
     headshot.id = "headshot" + d;
     console.log(headshot.id);
-    team.appendChild(headshot);
+    faces.appendChild(headshot);
     headshot.classList.add("headshot");
 
     var description = document.createElement("div");
