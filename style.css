@@ -110,8 +110,29 @@ a {
     /*padding-top:5%;*/
 }
 
-#superstitions {
-    background-image: url(./imgs/superstitions.png);
+#middle-school {
+    background-image: url(./imgs/middle-school.png);
+
+}
+
+
+#dreams {
+    background-image: url(./imgs/dreams.png);
+    left: 5%;
+    background-size: cover;
+    width:122%;
+
+}
+
+#self-doubt {
+    background-image: url(./imgs/self-doubt.png);
+
+
+}
+
+#death {
+    background-image: url(./imgs/death.png);
+    background-image: contain;
 
 }
 
@@ -121,23 +142,14 @@ a {
 
 }
 
-#dreams {
-    background-image: url(./imgs/dreams.png);
-    left:5%;
+#superstitions {
+    background-image: url(./imgs/superstitions.png);
 
 }
 
-#self-doubt {
-    background-image: url(./imgs/self-doubt.png);
-    
 
-}
 
-#death {
-    background-image: url(./imgs/death.png);
-    background-image:contain;
 
-}
 
 #episode-text {
     left: 40%;
@@ -145,6 +157,9 @@ a {
     font-family: 'EB Garamond', serif;
     z-index: 2;
     font-size: 2.2vw;
+    color: rgb(105, 105, 105);
+    padding-top:3%;
+
 
 
 
@@ -257,7 +272,7 @@ a {
 }
 
 #headshot0:hover {
-background-image: url(./imgs/olivia2.jpg);
+    background-image: url(./imgs/olivia2.jpg);
 
 }
 
@@ -489,7 +504,7 @@ background-image: url(./imgs/olivia2.jpg);
 
 #description16 {
 
-font-family: 'Crimson Text', serif;
+    font-family: 'Crimson Text', serif;
 
 
 }
@@ -529,7 +544,7 @@ font-family: 'Crimson Text', serif;
 #headshot19:hover {
 
     background-image: url(./imgs/sasha2.jpg);
-    
+
 
 
 }
@@ -573,7 +588,7 @@ font-family: 'Crimson Text', serif;
 #headshot22 {
 
     background-image: url(./imgs/hayden1.jpg);
-        background-position:0% 101%;
+    background-position: 0% 101%;
 
 
 }
@@ -588,7 +603,7 @@ font-family: 'Crimson Text', serif;
 #headshot23 {
 
     background-image: url(./imgs/hannah1.jpg);
-    background-position:0% 20%;
+    background-position: 0% 20%;
 
 
 }
@@ -602,14 +617,14 @@ font-family: 'Crimson Text', serif;
 }
 
 #headshot24 {
-    background-position:0% 3%;
+    background-position: 0% 3%;
 
     background-image: url(./imgs/chloe1.jpg);
 
 }
 
 #headshot24:hover {
-    background-position:0% 3%;
+    background-position: 0% 3%;
 
     background-image: url(./imgs/chloe2.jpg);
 
@@ -622,6 +637,7 @@ font-family: 'Crimson Text', serif;
 
 
 }
+
 #headshot26 {
 
     background-image: url(./imgs/edgar1.jpg);
