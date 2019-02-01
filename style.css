@@ -28,6 +28,7 @@ a {
 
 }
 
+
 #about {
     top: 100%;
 }
@@ -73,6 +74,15 @@ a {
     color: rgb(105, 105, 105);
     font-family: 'Unlock', cursive;
     font-size: 3vw;
+}
+
+#disclaimer{
+    font-family: 'Cabin Sketch', cursive;
+    position: absolute;
+    top:94%;
+    font-size:14px;
+    text-align:left;
+
 }
 
 
@@ -706,6 +716,9 @@ a {
         height: 100%;
     }
 
+#disclaimer{
+    top:45%;
+}
 
 
 
