@@ -76,12 +76,12 @@ a {
     font-size: 3vw;
 }
 
-#disclaimer{
+#disclaimer {
     font-family: 'Cabin Sketch', cursive;
     position: absolute;
-    top:94%;
-    font-size:14px;
-    text-align:left;
+    top: 94%;
+    font-size: 14px;
+    text-align: left;
 
 }
 
@@ -130,7 +130,7 @@ a {
     background-image: url(./imgs/dreams.png);
     left: 5%;
     background-size: cover;
-    width:122%;
+    width: 122%;
 
 }
 
@@ -168,7 +168,7 @@ a {
     z-index: 2;
     font-size: 2.2vw;
     color: rgb(105, 105, 105);
-    padding-top:3%;
+    padding-top: 3%;
 
 
 
@@ -676,6 +676,62 @@ a {
 
 }
 
+#headshot28 {
+
+    background-image: url(./imgs/janea1.jpg);
+
+
+}
+
+#headshot28.ThreePhotos {
+    animation-name: ThirdPhoto;
+    transition-timing-function: linear;
+    animation-duration: 3.5s;
+
+
+}
+
+
+#headshot29 {
+
+    background-image: url(./imgs/cami1.jpg);
+
+
+}
+
+#headshot29:hover{
+    background-image:url(./imgs/cami2.jpg);
+
+
+}
+
+
+@keyframes ThirdPhoto {
+    0% {
+        background-image: url(./imgs/janea1.jpg);
+    }
+
+    30% {
+        background-image: url(./imgs/janea2.jpg);
+    }
+
+     50% {
+        background-image: url(./imgs/janea3.jpg);
+    }
+
+     80% {
+        background-image: url(./imgs/janea3.jpg);
+    }
+
+
+    100% {
+        background-image: url(./imgs/janea1.jpg);
+    }
+
+
+
+}
+
 
 
 .name {
@@ -716,9 +772,9 @@ a {
         height: 100%;
     }
 
-#disclaimer{
-    top:45%;
-}
+    #disclaimer {
+        top: 45%;
+    }
 
 
 

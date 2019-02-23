@@ -40,7 +40,7 @@ function makeHeadshot(d) {
 
 
 
-for (i = 0; i < 28; i++) { makeHeadshot(i) };
+for (i = 0; i < 30; i++) { makeHeadshot(i) };
 
 
 document.getElementById('name0').innerText = "Olivia";
@@ -149,3 +149,12 @@ document.getElementById('description26').innerHTML = "imagine a world like that"
 
 document.getElementById('name27').innerText = "Emmalyhn";
 document.getElementById('description27').innerHTML = "" ;
+
+document.getElementById('name28').innerText = "Janea";
+document.getElementById('description28').innerHTML = "" ;
+headshot28.addEventListener("mouseenter", function(){headshot28.classList.add("ThreePhotos")});
+headshot28.addEventListener("mouseout", function(){headshot28.classList.remove("ThreePhotos")});
+
+
+document.getElementById('name29').innerText = "Cami";
+document.getElementById('description29').innerHTML = "" ;
