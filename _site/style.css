@@ -958,6 +958,19 @@ iframe {
 
 }
 
+#headshot37 {
+    background-image: url(./imgs/mara1.jpg);
+
+
+}
+
+
+#headshot37:hover {
+    background-image: url(./imgs/mara2.jpg);
+
+
+}
+
 
 @keyframes ThirdPhoto {
     0% {

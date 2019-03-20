@@ -40,7 +40,7 @@ function makeHeadshot(d) {
 
 
 
-for (i = 0; i < 37; i++) { makeHeadshot(i) };
+for (i = 0; i < 38; i++) { makeHeadshot(i) };
 
 
 document.getElementById('name0').innerText = "Olivia";
@@ -182,13 +182,13 @@ document.getElementById('name33').innerText = "Niah";
 document.getElementById('description33').innerHTML = "I'm Niah. I'm super nice." ;
 
 document.getElementById('name34').innerText = "Keyana";
-document.getElementById('description34').innerHTML = "" ;
+document.getElementById('description34').innerHTML = "Be careful who you trust and tell your problems to." ;
 
 document.getElementById('name35').innerText = "Anjaneya";
 document.getElementById('description35').innerHTML = "" ;
 
 document.getElementById('name36').innerText = "Antalya";
-document.getElementById('description35').innerHTML = "Face your life, it's pain, it's pleasure,leave no path untaken." ;
+document.getElementById('description36').innerHTML = "Face your life, it's pain, it's pleasure,leave no path untaken." ;
 
-
-
+document.getElementById('name37').innerText = "Mara";
+document.getElementById('description37').innerHTML = "beauty is not in the face; beauty is a light in the heart.";
