@@ -1027,31 +1027,34 @@ iframe {
 @media (max-device-width: 667px) {
 
     #section1 {
+        top:0%;
         height: 50%;
         width: 100%;
     }
 
     #about {
+        height:50%;
         top: 50%;
+        width:100%;
     }
 
     #episodes {
         top: 100%;
-        height: 50%;
+        height: 100%;
     }
 
     #first-cuts {
-        top: 150%;
+        top: 200%;
         height: 150%;
     }
 
     #team {
-        top: 300%;
+        top: 350%;
         height: 150%;
     }
 
     #contact {
-        top: 450%;
+        top: 500%;
         height: 100%;
     }
 
