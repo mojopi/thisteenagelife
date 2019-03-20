@@ -28,23 +28,53 @@ a {
 
 }
 
-#section2 {
+
+#about {
     top: 100%;
 }
 
-#section3 {
-    height: 200%;
+#episodes {
+    height: 100%;
     top: 200%;
+    background-repeat: repeat;
+   /* padding-left: 20%;
+    padding-top: 5%;*/
+
+
+
+}
+
+iframe {
+    border: 1px solid;
+    padding: 5px;
+    box-shadow: 5px 10px 18px #888888;
+    position: relative;
+    opacity: 0.75;
+    border-radius: 1%;
+
+}
+
+#first-cuts {
+    height: 300%;
+    top: 300%;
     background-repeat: repeat;
 
 
 }
 
-#section4 {
-    top: 400%;
-    height: 300%;
+#team {
+    top: 600%;
+    height: 450%;
 
 }
+
+#contact {
+    top: 1050%;
+    height: 100%;
+
+}
+
+
 
 #cover-art {
     top: 0%;
@@ -72,20 +102,45 @@ a {
     background-color: rgba(245, 245, 245, 0.5);
     color: rgb(105, 105, 105);
     font-family: 'Unlock', cursive;
-    font-size: 3vw;
+    font-size: 2vw;
+}
+
+#disclaimer {
+    font-family: 'Cabin Sketch', cursive;
+    position: absolute;
+    top: 94%;
+    font-size: 14px;
+    text-align: left;
+
 }
 
 
 .textbox {
     z-index: 1;
     width: 55%;
-    left: 40%;
+    left: 25%;
     position: absolute;
     padding-top: 5%;
 }
 
-#about {
+#aboutB {
     font-size: 2.4vw;
+}
+
+
+#episode-text {
+/*    background-color: blue;
+*/    left: 40%;
+    text-decoration: none;
+    font-family: 'EB Garamond', serif;
+    z-index: 2;
+    font-size: 2.2vw;
+    color: rgb(105, 105, 105);
+    padding-top: 3%;
+
+
+
+
 }
 
 #episode-images {
@@ -94,6 +149,8 @@ a {
     z-index: 3;
     position: absolute;
     left: 17%;
+/*    background-color: red;
+*/
 
 }
 
@@ -106,12 +163,77 @@ a {
     background-size: contain;
     background-repeat: no-repeat;
     z-index: 3;
-
-    /*padding-top:5%;*/
+    padding-top:5%;
 }
 
-#superstitions {
-    background-image: url(./imgs/superstitions.png);
+
+
+
+#teaser {
+    background-image: url(./imgs/teaser.png)
+}
+
+#first-cut-images {
+    height: 100%;
+    width: 20%;
+    z-index: 3;
+    position: absolute;
+    left: 17%;
+/*    background-color: red;
+*/
+}
+
+.first-cut-image {
+    height: 20vw;
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 3;
+    padding-top:5%;
+}
+
+#first-cut-text {
+    left: 40%;
+    text-decoration: none;
+    font-family: 'EB Garamond', serif;
+    z-index: 2;
+    font-size: 2.2vw;
+    color: rgb(105, 105, 105);
+    padding-top: 3%;
+/*    background-color: blue;
+*/
+
+
+
+}
+
+
+#middle-school {
+    background-image: url(./imgs/middle-school.png);
+
+}
+
+
+#dreams {
+    background-image: url(./imgs/dreams.png);
+    left: 5%;
+    background-size: cover;
+    width: 122%;
+
+}
+
+#self-doubt {
+    background-image: url(./imgs/self-doubt.png);
+
+
+}
+
+#death {
+    background-image: url(./imgs/death.png);
+    background-image: contain;
 
 }
 
@@ -121,30 +243,76 @@ a {
 
 }
 
-#dreams {
-    background-image: url(./imgs/dreams.png);
-    left:5%;
+#superstitions {
+    background-image: url(./imgs/superstitions.png);
 
 }
 
-#death {
-    background-image: url(./imgs/death.png);
-    background-image:contain;
 
-}
 
-#episode-text {
+
+
+
+#first-cut-text {
     left: 40%;
     text-decoration: none;
     font-family: 'EB Garamond', serif;
     z-index: 2;
     font-size: 2.2vw;
+    color: rgb(105, 105, 105);
+    padding-top: 3%;
+
 
 
 
 }
 
-#team {
+#contact-info {
+    width:600px;
+    height:100px;
+    font-family: 'Unlock', cursive;
+    font-size: 3vw;
+    width: 70%;
+    height: 50%;
+    position: relative;
+    top: 20%;
+    left: 24%;
+    color: rgb(105, 105, 105);
+
+    /*    background-color:blue;
+*/
+    text-align: center;
+
+
+}
+
+.contact-icon{
+    margin:3%;
+    width:100px;
+    height:72px;
+    background-size:contain;
+    background-repeat:no-repeat;
+    display:inline-block;
+}
+
+
+#email{
+    background-image:url(./imgs/email.png);
+}
+
+#instagram{
+    background-image:url(./imgs/instagram.png);
+}
+
+#facebook{
+    background-image:url(./imgs/facebook.png);
+}
+
+#twitter{
+    background-image:url(./imgs/twitter.png);
+}
+
+#faces {
     position: relative;
     left: 17%;
     /*z-index: 2;*/
@@ -251,7 +419,7 @@ a {
 }
 
 #headshot0:hover {
-background-image: url(./imgs/olivia2.jpg);
+    background-image: url(./imgs/olivia2.jpg);
 
 }
 
@@ -327,6 +495,10 @@ background-image: url(./imgs/olivia2.jpg);
     background-image: url(./imgs/shakara.jpg);
 }
 
+#headshot5:hover {
+    background-image: url(./imgs/shakara2.png);
+}
+
 #heart {
     z-index: 10;
     position: relative;
@@ -342,7 +514,11 @@ background-image: url(./imgs/olivia2.jpg);
 }
 
 #headshot6 {
-    background-image: url(./imgs/isabella.jpg);
+    background-image: url(./imgs/isabella1.jpg);
+}
+
+#headshot6:hover {
+    background-image: url(./imgs/isabella2.jpg);
 }
 
 #headshot7 {
@@ -475,7 +651,7 @@ background-image: url(./imgs/olivia2.jpg);
 
 #description16 {
 
-font-family: 'Crimson Text', serif;
+    font-family: 'Crimson Text', serif;
 
 
 }
@@ -515,7 +691,7 @@ font-family: 'Crimson Text', serif;
 #headshot19:hover {
 
     background-image: url(./imgs/sasha2.jpg);
-    
+
 
 
 }
@@ -559,7 +735,7 @@ font-family: 'Crimson Text', serif;
 #headshot22 {
 
     background-image: url(./imgs/hayden1.jpg);
-        background-position:0% 101%;
+    background-position: 0% 101%;
 
 
 }
@@ -571,11 +747,41 @@ font-family: 'Crimson Text', serif;
 
 }
 
+#headshot23 {
+
+    background-image: url(./imgs/hannah1.jpg);
+    background-position: 0% 20%;
+
+
+}
+
+
+#headshot23:hover {
+
+    background-image: url(./imgs/hannah2.jpg);
+
+
+}
 
 #headshot24 {
-    background-position:0% 3%;
+    background-position: 0% 3%;
 
     background-image: url(./imgs/chloe1.jpg);
+
+}
+
+#headshot24:hover {
+    background-position: 0% 3%;
+
+    background-image: url(./imgs/chloe2.jpg);
+
+}
+
+
+#headshot25 {
+
+    background-image: url(./imgs/cat.png);
+
 
 }
 
@@ -592,6 +798,193 @@ font-family: 'Crimson Text', serif;
 
 
 }
+
+#headshot27 {
+
+    background-image: url(./imgs/emmalyhn1.jpg);
+
+
+}
+
+#headshot27:hover {
+
+    background-image: url(./imgs/emmalyhn2.jpg);
+
+
+}
+
+#headshot28 {
+
+    background-image: url(./imgs/janea1.jpg);
+
+
+}
+
+#headshot28.ThreePhotos {
+    animation-name: ThirdPhoto;
+    transition-timing-function: linear;
+    animation-duration: 3.5s;
+
+
+}
+
+
+#headshot29 {
+
+    background-image: url(./imgs/cami1.jpg);
+
+
+}
+
+#headshot29:hover {
+    background-image: url(./imgs/cami2.jpg);
+
+
+}
+
+#headshot30 {
+
+    background-image: url(./imgs/junaid1.jpg);
+
+
+}
+
+
+#headshot30:hover {
+    background-image: url(./imgs/junaid2.gif);
+
+
+}
+
+
+
+#headshot31 {
+
+    background-image: url(./imgs/zora1.jpg);
+    background-position: 0px 0.25px;
+    ;
+
+
+}
+
+#headshot31:hover {
+
+    background-image: url(./imgs/zora2.jpg);
+    background-position: 0px 0.25;
+
+
+
+}
+
+
+
+#headshot32 {
+
+    background-image: url(./imgs/brandon1.jpg);
+
+
+}
+
+#headshot32:hover {
+    background-image: url(./imgs/brandon2.jpg);
+
+
+}
+
+#headshot33 {
+
+    background-image: url(./imgs/niah1.jpg);
+
+
+}
+
+#headshot33:hover {
+
+    background-image: url(./imgs/niah2.jpg);
+
+
+}
+
+#headshot34 {
+    background-image: url(./imgs/cat.png);
+    animation-name: keyanaChange;
+
+
+}
+
+@keyframes keyanaChange {
+    0% {
+        background-image: url(./imgs/janea1.jpg);
+    }
+
+    30% {
+        background-image: url(./imgs/janea2.jpg);
+    }
+
+    50% {
+        background-image: url(./imgs/janea3.jpg);
+    }
+
+    80% {
+        background-image: url(./imgs/janea3.jpg);
+    }
+
+
+    100% {
+        background-image: url(./imgs/janea1.jpg);
+    }
+
+
+
+}
+
+#headshot35 {
+    background-image: url(./imgs/cat.png);
+
+
+}
+
+
+#headshot36 {
+    background-image: url(./imgs/antalya1.jpg);
+
+
+}
+
+
+#headshot36:hover {
+    background-image: url(./imgs/antalya2.jpg);
+
+
+}
+
+
+@keyframes ThirdPhoto {
+    0% {
+        background-image: url(./imgs/janea1.jpg);
+    }
+
+    30% {
+        background-image: url(./imgs/janea2.jpg);
+    }
+
+    50% {
+        background-image: url(./imgs/janea3.jpg);
+    }
+
+    80% {
+        background-image: url(./imgs/janea3.jpg);
+    }
+
+
+    100% {
+        background-image: url(./imgs/janea1.jpg);
+    }
+
+
+
+}
+
 
 
 .name {
@@ -618,25 +1011,33 @@ font-family: 'Crimson Text', serif;
         width: 100%;
     }
 
-    #section2 {
+    #about {
         top: 50%;
     }
 
-    #section3 {
+    #episodes {
         top: 100%;
+        height: 50%;
+    }
+
+    #first-cuts {
+        top: 150%;
         height: 150%;
     }
 
-    #section4 {
-        top: 200%;
+    #team {
+        top: 300%;
+        height: 150%;
+    }
+
+    #contact {
+        top: 450%;
         height: 100%;
     }
 
-
-
-
-}
-
+    #disclaimer {
+        top: 45%;
+    }
 
 
 

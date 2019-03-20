@@ -2,162 +2,53 @@
 <html>
 
 <head>
+<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Patrick+Hand" rel="stylesheet">
+
     <link href="https://fonts.googleapis.com/css?family=Unlock" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=EB+Garamond|Unlock" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Caveat|Permanent+Marker" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
-    <style>/*   betwen the things that say <style> is where you do styling
-*/  
-        body{
-    margin:0;
-}
-
-    section{
-        width:100%;
-        height:100%;
-            position:absolute;
-        background-repeat: no-repeat;
-            background-size:cover;
-            z-index: -1;
-
-    }
-
-    #bar {
-    padding-left: 2%;
-    width: 10%;
-    height: 100%;
-    top: 0%;
-    position: fixed;
-    color:black;
-/*    background-color:rgba(238,130,238, 0.5);
-;*/
-    font-family: 'Unlock', cursive;
-    font-size: 2vw;
-}
-
-a{
-    color:violet;
-/*  color: rgb(105, 105, 105);
-*/  text-decoration:none;
-}
-
-#next-button{
-    font-size:60px;
-    position:absolute;
-    z-index: 2;
-    top:0%;
-    left:70%;
-    font-family: 'Permanent Marker', cursive;
-
-
-}
-
-
-#section2{
-
-    top:100%;
-    background-image: url(./imgs/adobo.png);
-    background-size: cover;
-    
-}
-
-.text{
-    left:22%;
-    top:10%;
-    font-size:18px;
-    line-height:1.5;
-    z-index: 2;
-    position: relative;
-    background-size:contain;
-
-
-}
-
-#text-cheese{
-    padding:20px;
-    background-repeat: no-repeat;
-    width:460px;
-    height:600px;
-background-color:rgb(255, 255, 255, 0.5);   
-opacity:0;
-
-font-size:25px;
-    /*background-color:rgba(255, 177, 0, 0.3);*/
-}
-
-/*#text{
-    width:60%;
-    position:relative;
-    left:15%;
-    top:10%;
-    font-family: 'Permanent Marker', cursive;
-    color:white;
-
-}*/
-
-#about-text{
-    position: relative;
-    width:60%;
-    left:20%;
-    font-size: 30px;
-/*    font-family: 'Abril Fatface', cursive;
-*/    text-align:left;
-font-family:'Lora', serif;
-;
-
-}
-
-#title{
-    position:relative;
-    background-size:contain;
-    background-repeat: no-repeat;
-    left:25%;
-    width:60%;
-    height:100px;
-    background-image:url(imgs/food-for-thought-title.png);
-}
-
-
-
-    </style>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>Food for thought</title>
 </head>
 
 <body>
     <div id="bar">
+
         <br>
-        <a href="#section2">adobo</a>
+        <p style="font-size:40px;"><b>stories</b></p>
+        
+        <a href="adobo.html">chicken adobo</a>
         <br><br>
-        <a href="#section3">star☕</a>
+        <!--         <a href="#section3">star☕</a>
         <br><br>
         <a href="#section4">thing</a>
         <br><br>
         <a href="#section5">thing</a>
         <br><br>
         <a href="#section6">thing</a>
-        <br>
+        <br> -->
     </div>
     <section id="section1">
+        <div class="horizontal-border" id="border-top"></div>
         <div id="title"></div>
         <div id="about-text">
-            <p>"Food For Thought" is a blog dedicated to sharing food related stories, and to understand what nourishment means to teenagers.<br> <br> This blog contains funny, traumatic, and sentimental narratives all related to what we eat. These pieces give an insight to the personalities and lives of High Tech High teenagers through the stories about what they consume. <br><br>We hope that you enjoy (savor?) your time here, bon appetit!
+            <p>"Food For Thought" is a blog dedicated to sharing food related stories, and to understand what nourishment means to teenagers.<br> <br> This blog contains funny, traumatic, and sentimental narratives all related to what we eat. <br><br>
+            
+            To me, food has always been a connection to my heritage in the sense that it made me feel close to my grandmother who is a first generation immigrant from the Filipines.
+            <br><br>
+            
+            I wanted to invite other teenagers to share their stories with food and how they have made connections through food to identities and other people.<br><br>
+            
+            To read these stories, click the on the left side of the screen!
+            <br><br>
+
+            I hope that you enjoy (savor?) your time here, bon appetit!
             </p>
         </div>
+        <div class="horizontal-border" id="border-bottom"></div>
     </section>
-    <section id="section2">
-        <div id="text-cheese" class="text">
-            <div id="text">
-                Ever since I can remember food has always brought my family together. Sometimes, most times, it is not in the literal sense, we usually don't all eat together in the same room unless there is a special occasion. Instead food brings my family together in closeness emotionally. We all see making food for each other and with each other as an act of love. I know that when I learn a new traditional Filipino recipe I feel closer to my grandmother. It feels great to watch the people you love enjoy something that you made for them. <br><br>
-                — Shakara Tilghman
-            </div>
-        </div>
-        <div id="next-button">Grilled Adobo</div>
-    </section>
-    <section id="section3"></section>
-    <section id="section4"></section>
-    <section id="section5"></section>
-    <section id="section6"></section>
     <script type="text/javascript">
     var counter = 0;
 

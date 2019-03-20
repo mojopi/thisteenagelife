@@ -40,7 +40,7 @@ function makeHeadshot(d) {
 
 
 
-for (i = 0; i < 30; i++) { makeHeadshot(i) };
+for (i = 0; i < 37; i++) { makeHeadshot(i) };
 
 
 document.getElementById('name0').innerText = "Olivia";
@@ -151,10 +151,44 @@ document.getElementById('name27').innerText = "Emmalyhn";
 document.getElementById('description27').innerHTML = "" ;
 
 document.getElementById('name28').innerText = "Janea";
-document.getElementById('description28').innerHTML = "" ;
+document.getElementById('description28').innerHTML = "How to get your hair to look like that??!!!!" + "<br>" +  "...Water" ;
 headshot28.addEventListener("mouseenter", function(){headshot28.classList.add("ThreePhotos")});
 headshot28.addEventListener("mouseout", function(){headshot28.classList.remove("ThreePhotos")});
 
 
 document.getElementById('name29').innerText = "Cami";
-document.getElementById('description29').innerHTML = "" ;
+document.getElementById('description29').innerHTML = "How tall are you?" + "<br>" +
+"6 foot." + "<br>" +
+"How the weather up there?" + "<br>" +
+ "Fine thanks." + "<br>" +
+"Why are you so tall?" + "<br>" +
+"Well there something called genes and you’ll learn the rest in bio class."
++ "<br>" +
+"Can you get that for me in the top shelf?" + "<br>" +
+"Yeah, happy to help";
+document.getElementById('description29').style.fontSize = "10px";
+
+document.getElementById('name30').innerText = "Junaid";
+document.getElementById('description30').innerHTML = "'A fake with more power than the real thing is more dangerous than the real thing.'"+ "<br>" +
+"-Hitagi Senjougahara, 2009" ;
+
+document.getElementById('name31').innerText = "Zora";
+document.getElementById('description31').innerHTML = "'Recollect your thoughts, don't get caught up in the mix. —2pac" ;
+
+document.getElementById('name32').innerText = "Brandon";
+document.getElementById('description32').innerHTML = "" ;
+
+document.getElementById('name33').innerText = "Niah";
+document.getElementById('description33').innerHTML = "I'm Niah. I'm super nice." ;
+
+document.getElementById('name34').innerText = "Keyana";
+document.getElementById('description34').innerHTML = "" ;
+
+document.getElementById('name35').innerText = "Anjaneya";
+document.getElementById('description35').innerHTML = "" ;
+
+document.getElementById('name36').innerText = "Antalya";
+document.getElementById('description35').innerHTML = "Face your life, it's pain, it's pleasure,leave no path untaken." ;
+
+
+
