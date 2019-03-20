@@ -183,6 +183,9 @@ document.getElementById('description33').innerHTML = "I'm Niah. I'm super nice."
 
 document.getElementById('name34').innerText = "Keyana";
 document.getElementById('description34').innerHTML = "Be careful who you trust and tell your problems to." ;
+headshot34.addEventListener("mouseenter", function(){headshot34.classList.add("keyanaChange")});
+headshot34.addEventListener("mouseout", function(){headshot34.classList.remove("keyanaChange")});
+
 
 document.getElementById('name35').innerText = "Anjaneya";
 document.getElementById('description35').innerHTML = "" ;

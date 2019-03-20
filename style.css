@@ -906,32 +906,39 @@ iframe {
 }
 
 #headshot34 {
-    background-image: url(./imgs/cat.png);
+    background-image: url(./imgs/keyana1.jpg);
+
+
+}
+
+#headshot34.keyanaChange {
     animation-name: keyanaChange;
+    transition-timing-function: linear;
+    animation-duration: 3.5s;
 
 
 }
 
 @keyframes keyanaChange {
     0% {
-        background-image: url(./imgs/janea1.jpg);
+        background-image: url(./imgs/keyana1.jpg);
     }
 
     30% {
-        background-image: url(./imgs/janea2.jpg);
+        background-image: url(./imgs/keyana2.jpg);
     }
 
     50% {
-        background-image: url(./imgs/janea3.jpg);
+        background-image: url(./imgs/keyana3.jpg);
     }
 
     80% {
-        background-image: url(./imgs/janea3.jpg);
+        background-image: url(./imgs/keyana3.jpg);
     }
 
 
     100% {
-        background-image: url(./imgs/janea1.jpg);
+        background-image: url(./imgs/keyana1.jpg);
     }
 
 
