@@ -28,10 +28,10 @@ function makeHeadshot(d) {
 
 
 
-    var name = document.createElement("div");
-    document.getElementById("headshot" + i).appendChild(name);
-    name.classList.add("name");
-    name.id = "name" + i;
+    // var name = document.createElement("div");
+    // document.getElementById("headshot" + i).appendChild(name);
+    // name.classList.add("name");
+    // name.id = "name" + i;
 
 
 }
