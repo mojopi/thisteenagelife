@@ -34,7 +34,7 @@ a {
 }
 
 #episodes {
-    height: 150%;
+    height: 250%;
     top: 200%;
     background-repeat: repeat;
    /* padding-left: 20%;
@@ -54,22 +54,22 @@ iframe {
 
 }
 
-#first-cuts {
+#first-cuts {l
     height: 250%;
-    top: 350%;
+    top: 450%;
     background-repeat: repeat;
 
 
 }
 
 #team {
-    top: 600%;
+    top: 700%;
     height: 450%;
 
 }
 
 #contact {
-    top: 1050%;
+    top: 1150%;
     height: 100%;
 
 }
@@ -159,7 +159,7 @@ iframe {
     height: 20vw;
     width: 100%;
     margin-top: 10%;
-    margin-bottom: 20%;
+    margin-bottom: 45%;
     position: relative;
     background-size: contain;
     background-repeat: no-repeat;
@@ -167,6 +167,10 @@ iframe {
     padding-top:5%;
 /*    background-color:red;
 */}
+
+#power{
+    background-image: url(./imgs/power.png);
+}
 
 
 
@@ -223,7 +227,8 @@ iframe {
     background-image: url(./imgs/dreams.png);
     left: 5%;
     background-size: cover;
-    width: 122%;
+/*    background-color: blue;
+*/    width: 122%;
 
 }
 
