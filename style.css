@@ -238,6 +238,12 @@ iframe {
 
 }
 
+#parenting {
+    background-image: url(./imgs/parenting.png);
+
+
+}
+
 #death {
     background-image: url(./imgs/death.png);
     background-image: contain;
