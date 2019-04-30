@@ -54,7 +54,7 @@ iframe {
 
 }
 
-#first-cuts {l
+#first-cuts {
     height: 250%;
     top: 450%;
     background-repeat: repeat;
@@ -63,13 +63,13 @@ iframe {
 }
 
 #team {
-    top: 700%;
+    top: 600%;
     height: 450%;
 
 }
 
 #contact {
-    top: 1150%;
+    top: 1050%;
     height: 100%;
 
 }
