@@ -281,6 +281,11 @@ background-color: blue;
 
 }
 
+#lies {
+    background-image: url(./imgs/lies.png);
+
+}
+
 #death {
     background-image: url(./imgs/death.png);
     background-image: contain;
