@@ -213,6 +213,10 @@ background-color: blue;
     background-image: url(./imgs/love.png);
 }
 
+#impressions {
+    background-image: url(./imgs/impressions.png);
+}
+
 #queerness {
     background-image: url(./imgs/closet.png);
 }
