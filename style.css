@@ -221,6 +221,10 @@ background-color: blue;
     background-image: url(./imgs/closet.png);
 }
 
+#movingPart1 {
+    background-image: url(./imgs/movingPart1.png);
+}
+
 
 #teaser {
     background-image: url(./imgs/teaser.png)
