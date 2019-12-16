@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Raleway+Dots&display=swap" rel="stylesheet">
+    <style type="text/css">
+    body {
+        margin: 0;
+        background-color: black;
+    }
+
+    .header {
+        font-family: 'Raleway Dots', cursive;
+        font-size: 200px;
+        color: rgba(0, 0, 0, 0.5);
+        width: 800px;
+        height: 800px;
+        position:absolute;
+        left: 300px;
+        background-image: url("front.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+
+
+    }
+    </style>
+    <title></title>
+</head>
+
+<body>
+    <audio loop allow="autoplay" id="dream-song" src="dream-song.m4a"></audio>
+    <div id='dream' class="header"></div>
+    <script type="text/javascript">
+    var dreamSong = document.getElementById("dream-song");
+    var dream = document.getElementById("dream");
+
+
+    function makeImage(i) {
+
+        var image = document.createElement("div")
+        document.body.appendChild(image);
+
+        image.style.transition = "5s";
+        image.style.backgroundImage = "url(" + i + ".png)";
+        image.style.backgroundSize = "contain";
+        image.style.backgroundRepeat = "no-repeat";
+
+        // image.style.backgroundColor = 'rgb(' + Math.random() * 255 + "," + Math.random() * 255 + "," + Math.random() * 255 + ")";
+        image.style.display = "inline-block";
+        image.style.position = "relative";
+
+        function setPosition() {
+            image.style.left = Math.round(Math.random() * Math.random() * 400) + "px";
+            image.style.top = Math.round(Math.random() * Math.random() * 100) + "px";
+        };
+
+        function changeOpacity() {
+            image.style.opacity = Math.random() * 1;
+
+        }
+
+
+
+        function setSize() {
+            image.style.width = Math.round(Math.random() * 400 + 100) + "px";
+            image.style.height = image.style.width;
+        }
+
+
+        setInterval(setPosition, 3000);
+        setInterval(changeOpacity, 300);
+        setInterval(setSize, 2000);
+
+
+
+
+    }
+
+    function headerOpacity() {
+        dream.style.opacity = Math.random() * 1;
+
+    }
+
+    setInterval(headerOpacity, 300);
+
+
+
+
+    document.addEventListener("click", function() {
+        dreamSong.play();
+        dream.classList.remove("header");
+        for (var i = 1; i < 38; i = i + 1) { makeImage(i) }
+
+
+
+    });
+    </script>
+</body>
+
+</html>
