@@ -225,6 +225,15 @@ background-color: blue;
     background-image: url(./imgs/movingPart1.png);
 }
 
+#movingPart2 {
+    background-image: url(./imgs/movingPart2.png);
+}
+
+#movingPart3 {
+    background-image: url(./imgs/movingPart3.png);
+}
+
+
 
 #teaser {
     background-image: url(./imgs/teaser.png)
