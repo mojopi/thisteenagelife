@@ -71,7 +71,7 @@ iframe {
 }
 
 #contact {
-    top: 2300%;
+    top: 2100%;
     height: 100%;
 
 }
@@ -231,6 +231,10 @@ background-color: blue;
 
 #movingPart3 {
     background-image: url(./imgs/movingPart3.png);
+}
+
+#reflections {
+    background-image: url(./imgs/teenageReflections.png);
 }
 
 
