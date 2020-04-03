@@ -241,6 +241,13 @@ background-color: blue;
     background-image: url(./imgs/covid.png);
 }
 
+#kindness {
+    background-image: url(./imgs/kindness.png);
+}
+
+#boredom {
+    background-image: url(./imgs/boredom.png);
+}
 
 #teaser {
     background-image: url(./imgs/teaser.png)
