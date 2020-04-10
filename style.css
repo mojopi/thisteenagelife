@@ -35,7 +35,7 @@ a {
 }
 
 #episodes {
-    height: 1200%;
+    height: 1600%;
     top: 200%;
     background-repeat: repeat;
     /* padding-left: 20%;
@@ -65,13 +65,13 @@ iframe {
 }
 
 #team {
-    top: 1650%;
+    top: 1750%;
     height: 450%;
 
 }
 
 #contact {
-    top: 2100%;
+    top: 2200%;
     height: 100%;
 
 }
@@ -249,9 +249,15 @@ background-color: blue;
     background-image: url(./imgs/boredom.png);
 }
 
+#innerMonologues {
+    background-image: url(./imgs/monologues.png);
+}
+
 #teaser {
     background-image: url(./imgs/teaser.png)
 }
+
+
 
 #first-cut-images {
     height: 100%;
@@ -1132,21 +1138,21 @@ background-color: blue;
 
     #episodes {
         top: 100%;
-        height: 400%;
+        height: 500%;
     }
 
     #first-cuts {
-        top: 500%;
+        top: 600%;
         height: 50%;
     }
 
     #team {
-        top: 550%;
+        top: 650%;
         height: 200%;
     }
 
     #contact {
-        top: 750%;
+        top: 850%;
         height: 50%;
     }
 
