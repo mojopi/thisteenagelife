@@ -253,6 +253,10 @@ background-color: blue;
     background-image: url(./imgs/monologues.png);
 }
 
+#thirteen {
+    background-image: url(./imgs/13.png);
+}
+
 #teaser {
     background-image: url(./imgs/teaser.png)
 }
