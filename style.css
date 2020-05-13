@@ -35,7 +35,7 @@ a {
 }
 
 #episodes {
-    height: 1600%;
+    height: 2000%;
     top: 200%;
     background-repeat: repeat;
     /* padding-left: 20%;
@@ -58,20 +58,24 @@ iframe {
 
 #first-cuts {
     height: 450%;
-    top: 1200%;
+    top: 2200%;
     background-repeat: repeat;
 
 
 }
 
+#mothersday{
+    background-image:url(./imgs/mothersday2.png);
+}
+
 #team {
-    top: 1750%;
+    top: 2650%;
     height: 450%;
 
 }
 
 #contact {
-    top: 2200%;
+    top: 3100%;
     height: 100%;
 
 }
