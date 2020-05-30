@@ -257,6 +257,10 @@ background-color: blue;
     background-image: url(./imgs/monologues.png);
 }
 
+#pets {
+    background-image: url(./imgs/pets.png);
+}
+
 #thirteen {
     background-image: url(./imgs/13.png);
 }
