@@ -257,6 +257,10 @@ background-color: blue;
     background-image: url(./imgs/monologues.png);
 }
 
+#blackLivesMatter {
+    background-image: url(./imgs/blackLivesMatter.png);
+}
+
 #pets {
     background-image: url(./imgs/pets.png);
 }
