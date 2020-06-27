@@ -1,5 +1,7 @@
 body {
     margin: 0;
+
+
 }
 
 section {
@@ -11,31 +13,38 @@ section {
     background-image: url(imgs/purple-background1.png);
     background-size: cover;
     background-repeat: no-repeat;
+
     font-family: 'EB Garamond', serif;
 
 
 }
 
 a {
-    color: rgb(105, 105, 105);
+        color: rgb(88, 88, 88);
+
+    /*    color: rgb(105, 105, 105);
+*/
+
+    /*color:rgb(98, 133, 206);
+color:rgb(101, 111, 91);*/
 
     text-decoration: none;
 }
 
 #section1 {
     top: 0%;
-    height:100%;
+    height: 100%;
 
 
 }
 
 #about {
     top: 100%;
-    height:100%;
+    height: 100%;
 }
 
 #episodes {
-    height: 2000%;
+    height: 2450%;
     top: 200%;
     background-repeat: repeat;
     /* padding-left: 20%;
@@ -56,16 +65,16 @@ iframe {
 
 }
 
-#first-cuts {
+/*#first-cuts {
     height: 450%;
     top: 2200%;
     background-repeat: repeat;
 
 
-}
+}*/
 
-#mothersday{
-    background-image:url(./imgs/mothersday2.png);
+#mothersday {
+    background-image: url(./imgs/mothersday2.png);
 }
 
 #team {
@@ -88,7 +97,7 @@ iframe {
     width: 80%;
     left: 20%;
     height: 100%;
-    background-image: url(./imgs/web-art1.png);
+    background-image: url(./imgs/web-art3.png);
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
@@ -100,15 +109,37 @@ iframe {
 
 
 #bar {
+
+    font-family: 'Chelsea Market', cursive;
+
+
+    /*        font-family: 'Abril Fatface', cursive;
+*/
+    /*    font-family: 'Cabin Sketch', cursive;
+*/
+
+    /*font-family: 'Fredoka One', cursive;
+*/
+/*    font-family: 'Passion One', cursive;
+*/
     padding-left: 2%;
     width: 15%;
     height: 100%;
     top: 0%;
     position: fixed;
-    background-color: rgba(245, 245, 245, 0.5);
-    color: rgb(105, 105, 105);
-    font-family: 'Unlock', cursive;
-    font-size: 2vw;
+    background-color: rgb(245, 245, 245, 0.2);
+    color: white;
+    /*    color: rgb(105, 105, 105);
+*/
+
+    /*    font-family: 'Unlock', cursive;
+*/
+    font-size: 2.5vw;
+}
+
+a {
+    text-decoration: none;
+    font-color: black;
 }
 
 #disclaimer {
@@ -135,29 +166,39 @@ iframe {
 
 .episode-container-div {
 
-    left:18%;
-/*    border:dotted;
-*/    width: 80%;
+    left: 18%;
+    /*    border:dotted;
+*/
+    width: 80%;
     position: relative;
-/*    background-color: yellow;
-*//*    left: 45%;
-*/}
+    /*    background-color: yellow;
+*/
+    /*    left: 45%;
+*/
+}
 
 #episode-text {
-/*    background-color: blue;
-*/    padding:5%;
-    width:63%;
-    left:22vw;
-top:0%;
-    position:relative;
+    /*    background-color: blue;
+*/
+color:rgb(111,111,111);
+/*    color: rgb(88, 88, 88);*/    
+padding: 5%;
+    width: 63%;
+    left: 22vw;
+    top: 0%;
+    position: relative;
     text-decoration: none;
     font-family: 'EB Garamond', serif;
-    z-index: 2;
     font-size: 2.2vw;
-    color: rgb(105, 105, 105);
+    /*    color: rgb(105, 105, 105);
+*/
     /*    padding-top: 3%;
 */
 }
+
+/*.description-text {
+    color: black;
+}*/
 
 /*#episode-text {
 background-color: blue;
@@ -196,8 +237,9 @@ background-color: blue;
 }*/
 
 .episode-image {
-/*    background-color:purple;
-*/    height: 20vw;
+    /*    background-color:purple;
+*/
+    height: 20vw;
     width: 20vw;
     position: absolute;
     background-size: contain;
@@ -260,6 +302,7 @@ background-color: blue;
 #blackLivesMatter {
     background-image: url(./imgs/blackLivesMatter.png);
 }
+
 #quarantine2 {
     background-image: url(./imgs/quarantine2.0.png);
 }
@@ -1157,13 +1200,13 @@ background-color: blue;
 
     #episodes {
         top: 100%;
-        height: 500%;
+        height: 550%;
     }
 
-    #first-cuts {
+   /* #first-cuts {
         top: 600%;
         height: 50%;
-    }
+    }*/
 
     #team {
         top: 650%;
