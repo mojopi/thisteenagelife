@@ -20,7 +20,7 @@ section {
 }
 
 a {
-        color: rgb(88, 88, 88);
+    color: rgb(88, 88, 88);
 
     /*    color: rgb(105, 105, 105);
 */
@@ -44,16 +44,89 @@ color:rgb(101, 111, 91);*/
 }
 
 #episodes {
-    height: 2450%;
+    height: 2500%;
     top: 200%;
     background-repeat: repeat;
     /* padding-left: 20%;
     padding-top: 5%;*/
+}
+
+#swag {
+    top: 2700%;
+    height: 250%;
+}
+
+#team {
+    top: 2950%;
+    height: 450%;
+
+}
+
+#contact {
+    top: 3300%;
+    height: 100%;
+
+}
+
+#swag-title{
+    top:0%;
+    position: relative;
+}
 
 
+.sticker {
+    top: 20%;
+    display: inline-block;
+    width: 21vw;
+    height: 14.5vw;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    left: 35vw;
+    position: absolute;
 
 
 }
+
+.tshirt {
+position: relative;
+    top: 20%;
+    display: inline-block;
+    margin: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#tshirt1 {
+    width: 32vw;
+    height: 32vw;
+    background-image: url(./imgs/tshirt1.png);
+}
+
+/* #tshirt2 {
+        width: 30px;
+        height: 30px;
+        background-image: url(./imgs/tshirt2.png);
+    }*/
+
+#sticker1 {
+    background-image: url(./imgs/sticker1.png);
+}
+
+#swag-text {
+    display: block;
+/*    background-color: blue;
+*/    position: relative;
+    top: 0%;
+}
+
+/* #sticker2 {
+        background-image: url(./imgs/sticker2.png);
+    }*/
+
+
+
+
 
 iframe {
     border: 1px solid;
@@ -77,17 +150,8 @@ iframe {
     background-image: url(./imgs/mothersday2.png);
 }
 
-#team {
-    top: 2650%;
-    height: 450%;
 
-}
 
-#contact {
-    top: 3100%;
-    height: 100%;
-
-}
 
 
 
@@ -120,7 +184,7 @@ iframe {
 
     /*font-family: 'Fredoka One', cursive;
 */
-/*    font-family: 'Passion One', cursive;
+    /*    font-family: 'Passion One', cursive;
 */
     padding-left: 2%;
     width: 15%;
@@ -180,9 +244,9 @@ a {
 #episode-text {
     /*    background-color: blue;
 */
-color:rgb(111,111,111);
-/*    color: rgb(88, 88, 88);*/    
-padding: 5%;
+    color: rgb(111, 111, 111);
+    /*    color: rgb(88, 88, 88);*/
+    padding: 5%;
     width: 63%;
     left: 22vw;
     top: 0%;
@@ -321,16 +385,16 @@ background-color: blue;
 
 
 
-#first-cut-images {
+/* #first-cut-images {
     height: 100%;
     width: 20%;
     z-index: 3;
     position: absolute;
     left: 17%;
-    /*    background-color: red;
-*/
-}
+       background-color: red;
 
+}*/
+/*
 .first-cut-image {
     height: 20vw;
     width: 100%;
@@ -352,11 +416,11 @@ background-color: blue;
     color: rgb(105, 105, 105);
     padding-top: 3%;
     /*    background-color: blue;
-*/
 
 
 
-}
+
+}*/
 
 
 #middle-school {
@@ -1200,21 +1264,28 @@ background-color: blue;
 
     #episodes {
         top: 100%;
-        height: 550%;
+        height: 850%;
     }
 
-   /* #first-cuts {
+    #swag {
+        top: 950%;
+        height: 200%;
+    }
+
+    /* #first-cuts {
         top: 600%;
         height: 50%;
     }*/
 
+
+
     #team {
-        top: 650%;
+        top: 1150%;
         height: 200%;
     }
 
     #contact {
-        top: 850%;
+        top: 1350%;
         height: 50%;
     }
 
