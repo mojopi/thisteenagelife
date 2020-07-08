@@ -73,6 +73,11 @@ color:rgb(101, 111, 91);*/
     position: relative;
 }
 
+#movie{
+    width:640px; 
+    height:360px; 
+}
+
 
 .sticker {
     top: 20%;
@@ -1254,6 +1259,8 @@ background-color: blue;
 
 @media (max-device-width: 667px) {
 
+
+
     #section1 {
         top: 0%;
         height: 50%;
@@ -1266,6 +1273,11 @@ background-color: blue;
         top: 50%;
         width: 100%;
     }
+/*
+    #movie{
+        width:480px;
+        height:225px;
+    }*/
 
     #episodes {
         top: 150%;
