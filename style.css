@@ -371,6 +371,10 @@ background-color: blue;
     background-image: url(./imgs/quarantine2.0.png);
 }
 
+#cancelCulture {
+    background-image: url(./imgs/cancelCulture.png);
+}
+
 #pets {
     background-image: url(./imgs/pets.png);
 }
@@ -1257,7 +1261,7 @@ background-color: blue;
     }
 
     #about {
-        
+
         height: 100%;
         top: 50%;
         width: 100%;
