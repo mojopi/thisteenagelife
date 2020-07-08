@@ -44,7 +44,7 @@ color:rgb(101, 111, 91);*/
 }
 
 #episodes {
-    height: 2500%;
+    height: 3100%;
     top: 300%;
     background-repeat: repeat;
     /* padding-left: 20%;
@@ -52,18 +52,18 @@ color:rgb(101, 111, 91);*/
 }
 
 #swag {
-    top: 2800%;
+    top: 3200%;
     height: 250%;
 }
 
 #team {
-    top: 3050%;
+    top: 3650%;
     height: 450%;
 
 }
 
 #getInvolved {
-    top: 3500%;
+    top: 4100%;
     height: 100%;
 
 }
