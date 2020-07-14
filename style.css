@@ -380,6 +380,10 @@ background-color: blue;
     background-image: url(./imgs/cancelCulture.png);
 }
 
+#period {
+    background-image: url(./imgs/period.png);
+}
+
 #pets {
     background-image: url(./imgs/pets.png);
 }
