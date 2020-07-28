@@ -44,7 +44,7 @@ color:rgb(101, 111, 91);*/
 }
 
 #episodes {
-    height: 3100%;
+    height: 3700%;
     top: 300%;
     background-repeat: repeat;
     /* padding-left: 20%;
@@ -52,18 +52,18 @@ color:rgb(101, 111, 91);*/
 }
 
 #swag {
-    top: 3200%;
+    top: 3800%;
     height: 250%;
 }
 
 #team {
-    top: 3650%;
+    top: 4050%;
     height: 450%;
 
 }
 
 #getInvolved {
-    top: 4100%;
+    top: 4700%;
     height: 100%;
 
 }
@@ -378,6 +378,16 @@ background-color: blue;
 
 #cancelCulture {
     background-image: url(./imgs/cancelCulture.png);
+}
+
+#beauty {
+    background-image: url(./imgs/beauty.png);
+}
+#resilience {
+    background-image: url(./imgs/resilience.png);
+}
+#talkingBack {
+    background-image: url(./imgs/talkingBack.png);
 }
 
 #period {
@@ -1285,11 +1295,11 @@ background-color: blue;
 
     #episodes {
         top: 150%;
-        height: 850%;
+        height: 1250%;
     }
 
     #swag {
-        top: 1000%;
+        top: 1400%;
         height: 200%;
     }
 
@@ -1301,12 +1311,12 @@ background-color: blue;
 
 
     #team {
-        top: 1200%;
+        top: 1600%;
         height: 200%;
     }
 
     #getInvolved {
-        top: 1400%;
+        top: 1800%;
         height: 50%;
     }
 
