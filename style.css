@@ -13,7 +13,6 @@ section {
     background-image: url(imgs/purple-background1.png);
     background-size: cover;
     background-repeat: no-repeat;
-
     font-family: 'EB Garamond', serif;
 
 
@@ -40,42 +39,55 @@ color:rgb(101, 111, 91);*/
 
 #about {
     top: 100%;
-    height: 200%;
+    height: 600%;
 }
 
 #episodes {
-    height: 3700%;
-    top: 300%;
+    top: 700%;
+    height: 3800%;
     background-repeat: repeat;
     /* padding-left: 20%;
     padding-top: 5%;*/
 }
 
+
+#guides {
+
+    top: 4500%;
+    height: 800%;
+
+}
+
 #swag {
-    top: 3800%;
-    height: 250%;
+    top: 5300%;
+    height: 350%;
 }
 
 #team {
-    top: 4050%;
-    height: 450%;
+    top: 5650%;
+    height: 600%;
 
 }
 
 #getInvolved {
-    top: 4700%;
+    top: 6250%;
     height: 100%;
 
 }
 
-#swag-title{
-    top:0%;
+#guides-title {
+    top: 0%;
     position: relative;
 }
 
-#movie{
-    width:640px; 
-    height:360px; 
+#swag-title {
+    top: 0%;
+    position: relative;
+}
+
+#movie {
+    width: 640px;
+    height: 360px;
 }
 
 
@@ -94,7 +106,7 @@ color:rgb(101, 111, 91);*/
 }
 
 .tshirt {
-position: relative;
+    position: relative;
     top: 20%;
     display: inline-block;
     margin: 10px;
@@ -120,8 +132,9 @@ position: relative;
 
 #swag-text {
     display: block;
-/*    background-color: blue;
-*/    position: relative;
+    /*    background-color: blue;
+*/
+    position: relative;
     top: 0%;
 }
 
@@ -133,7 +146,7 @@ position: relative;
 
 
 
-iframe {
+/*iframe {
     border: 1px solid;
     padding: 5px;
     box-shadow: 5px 10px 18px #888888;
@@ -141,7 +154,22 @@ iframe {
     opacity: 0.75;
     border-radius: 1%;
 
-}
+}*/
+
+.player {
+    position: relative;
+    max-height: 100%;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: auto;
+    color: #fff;
+    line-height: normal;
+    overflow: visible;
+    border-collapse: separate;}
+
 
 /*#first-cuts {
     height: 450%;
@@ -203,7 +231,7 @@ iframe {
 
     /*    font-family: 'Unlock', cursive;
 */
-    font-size: 2.5vw;
+    font-size: 2vw;
 }
 
 a {
@@ -383,9 +411,11 @@ background-color: blue;
 #beauty {
     background-image: url(./imgs/beauty.png);
 }
+
 #resilience {
     background-image: url(./imgs/resilience.png);
 }
+
 #talkingBack {
     background-image: url(./imgs/talkingBack.png);
 }
@@ -1283,23 +1313,31 @@ background-color: blue;
 
     #about {
 
-        height: 100%;
+        height: 300%;
         top: 50%;
         width: 100%;
     }
-/*
+
+    
     #movie{
         width:480px;
         height:225px;
-    }*/
+    }
 
     #episodes {
-        top: 150%;
+        top: 350%;
         height: 1250%;
     }
 
+    #guides {
+
+        top: 1600%;
+        height: 1000%;
+
+    }
+
     #swag {
-        top: 1400%;
+        top: 2600%;
         height: 200%;
     }
 
@@ -1311,12 +1349,12 @@ background-color: blue;
 
 
     #team {
-        top: 1600%;
+        top: 2800%;
         height: 200%;
     }
 
     #getInvolved {
-        top: 1800%;
+        top: 3000%;
         height: 50%;
     }
 
