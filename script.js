@@ -40,7 +40,7 @@ function makeHeadshot(d) {
 
 
 
-for (i = 0; i < 38; i++) { makeHeadshot(i) };
+for (i = 0; i < 39; i++) { makeHeadshot(i) };
 
 
 document.getElementById('name0').innerText = "Olivia";
@@ -195,3 +195,7 @@ document.getElementById('description36').innerHTML = "Face your life, it's pain,
 
 document.getElementById('name37').innerText = "Mara";
 document.getElementById('description37').innerHTML = "beauty is not in the face; beauty is a light in the heart.";
+
+document.getElementById('name38').innerText = "Jade";
+document.getElementById('description38').innerHTML = "";
+

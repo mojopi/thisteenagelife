@@ -590,6 +590,7 @@ background-color: blue;
 }
 
 #faces {
+    top:2%;
     position: relative;
     left: 17%;
     /*z-index: 2;*/
@@ -1251,6 +1252,19 @@ background-color: blue;
 
 #headshot37:hover {
     background-image: url(./imgs/mara2.jpg);
+
+
+}
+
+#headshot38 {
+    background-image: url(./imgs/jade1.jpg);
+
+
+}
+
+
+#headshot38:hover {
+    background-image: url(./imgs/jade2.jpg);
 
 
 }
