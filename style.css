@@ -54,23 +54,23 @@ color:rgb(101, 111, 91);*/
 #guides {
 
     top: 4500%;
-    height: 800%;
+    height: 1300%;
 
 }
 
 #swag {
-    top: 5300%;
+    top: 5800%;
     height: 350%;
 }
 
 #team {
-    top: 5650%;
+    top: 6150%;
     height: 600%;
 
 }
 
 #getInvolved {
-    top: 6250%;
+    top: 6750%;
     height: 100%;
 
 }
@@ -1313,7 +1313,7 @@ background-color: blue;
 
     #about {
 
-        height: 300%;
+        height: 200%;
         top: 50%;
         width: 100%;
     }
@@ -1325,19 +1325,19 @@ background-color: blue;
     }
 
     #episodes {
-        top: 350%;
-        height: 1250%;
+        top: 250%;
+        height: 850%;
     }
 
     #guides {
 
-        top: 1600%;
-        height: 1000%;
+        top: 1100%;
+        height: 500%;
 
     }
 
     #swag {
-        top: 2600%;
+        top: 1600%;
         height: 200%;
     }
 
@@ -1349,12 +1349,12 @@ background-color: blue;
 
 
     #team {
-        top: 2800%;
+        top: 1800%;
         height: 200%;
     }
 
     #getInvolved {
-        top: 3000%;
+        top: 2000%;
         height: 50%;
     }
 
