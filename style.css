@@ -243,7 +243,7 @@ a {
     font-family: 'Cabin Sketch', cursive;
     position: absolute;
     top: 94%;
-    font-size: 14px;
+    font-size: 1vw;
     text-align: left;
 
 }
@@ -1320,8 +1320,8 @@ background-color: blue;
 
     
     #movie{
-        width:480px;
-        height:225px;
+        width:360px;
+        height:168.75px;
     }
 
     #episodes {
