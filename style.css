@@ -69,9 +69,9 @@ color:rgb(101, 111, 91);*/
 
 }
 
-#getInvolved {
+#media {
     top: 6750%;
-    height: 100%;
+    height: 300%;
 
 }
 
@@ -436,6 +436,17 @@ background-color: blue;
     background-image: url(./imgs/teaser.png)
 }
 
+#modelsofexcellence{
+        background-image: url(./imgs/modelsOfExcellence.png)
+
+
+}
+
+#edutopia{
+        background-image: url(./imgs/edutopia.png)
+
+
+}
 
 
 /* #first-cut-images {
@@ -1367,9 +1378,9 @@ background-color: blue;
         height: 200%;
     }
 
-    #getInvolved {
+    #media {
         top: 2100%;
-        height: 50%;
+        height: 200%;
     }
 
     #disclaimer {
