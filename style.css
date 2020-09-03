@@ -71,7 +71,7 @@ color:rgb(101, 111, 91);*/
 
 #media {
     top: 6750%;
-    height: 300%;
+    height: 400%;
 
 }
 
@@ -436,6 +436,10 @@ background-color: blue;
     background-image: url(./imgs/teaser.png)
 }
 
+#remote-learning {
+    background-image: url(./imgs/remote-learning.png)
+}
+
 #modelsofexcellence{
         background-image: url(./imgs/modelsOfExcellence.png)
 
@@ -450,6 +454,12 @@ background-color: blue;
 
 #schools{
         background-image: url(./imgs/schools.png)
+
+
+}
+
+#lola{
+        background-image: url(./imgs/lola.png)
 
 
 }
