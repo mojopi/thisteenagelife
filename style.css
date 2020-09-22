@@ -42,6 +42,42 @@ color:rgb(101, 111, 91);*/
     height: 600%;
 }
 
+.heading{
+    color:rgb(88,88,88); 
+    font-size:4vw; 
+    font-family: 'Unlock', cursive;
+
+}
+
+.guideHeading{
+    color:rgb(88,88,88); 
+    font-size:2vw; 
+    font-family: 'Unlock', cursive;
+
+}
+.guideInstructions{
+    background-color:rgba(255, 255, 255, 0.5); 
+    color:rgb(88, 88, 88);
+    font-size:2.5vw; 
+    font-family:'Chelsea Market', cursive;"
+
+
+}
+
+.guideTitles{
+    
+    font-size:5.5vw; 
+
+}
+
+.sectionTitle{
+    background-color:rgba(255, 255, 255, 0.5); 
+    color:rgb(88, 88, 88);
+    font-size:4.7vw; 
+    font-family:'Chelsea Market', cursive;"
+}
+
+
 #episodes {
     top: 700%;
     height: 3800%;
@@ -54,23 +90,23 @@ color:rgb(101, 111, 91);*/
 #guides {
 
     top: 4500%;
-    height: 1300%;
+    height: 1500%;
 
 }
 
 #swag {
-    top: 5800%;
+    top: 6000%;
     height: 350%;
 }
 
 #team {
-    top: 6150%;
+    top: 6350%;
     height: 600%;
 
 }
 
 #media {
-    top: 6750%;
+    top: 6950%;
     height: 400%;
 
 }
@@ -1349,6 +1385,36 @@ background-color: blue;
 
 @media (max-device-width: 667px) {
 
+/*    p{font-size:4vw;}
+*/
+    #bar{
+        font-size:3vw;
+        width:15%;
+    }
+
+
+#aboutWriting{
+    font-size: 4vw;
+    padding-left:5%;
+/*    width:75%;
+*/}
+
+.guideHeading{
+    font-size:4vw;
+}
+
+.guideTitles{
+    
+    font-size:6vw; 
+
+}
+
+.guideInstructions{
+    
+    font-size:4.5vw; 
+
+}
+
 
 
     #section1 {
@@ -1359,7 +1425,7 @@ background-color: blue;
 
     #about {
 
-        height: 200%;
+        height: 450%;
         top: 50%;
         width: 100%;
     }
@@ -1371,21 +1437,32 @@ background-color: blue;
     }*/
 
     #episodes {
-        top: 250%;
-        height: 950%;
+        top: 500%;
+        height: 2000%;
     }
 
+ /*#disclaimer {
+       font-size:5vw;
+    }*/
     #guides {
 
-        top: 1200%;
-        height: 500%;
+        top: 2500%;
+        height: 1200%;
 
     }
 
     #swag {
-        top: 1700%;
+        top: 3700%;
         height: 200%;
     }
+
+    #episode-text{
+        font-size:4vw;
+    }
+
+
+
+
 
     /* #first-cuts {
         top: 600%;
@@ -1395,17 +1472,24 @@ background-color: blue;
 
 
     #team {
-        top: 1900%;
+        top: 3900%;
         height: 200%;
     }
 
     #media {
-        top: 2100%;
-        height: 300%;
+        top: 4100%;
+        height: 400%;
     }
 
     #disclaimer {
-        top: 45%;
+        top: 40%;
+        left:10%;
+        font-size:2.5vw;
+    }
+
+    .textbox {
+        
+        font-size:2vw;
     }
 
 
