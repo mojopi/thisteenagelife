@@ -472,6 +472,10 @@ background-color: blue;
     background-image: url(./imgs/teaser.png)
 }
 
+#tooMuchness {
+    background-image: url(./imgs/tooMuchness.png)
+}
+
 #comfort {
     background-image: url(./imgs/comfort.png)
 }
