@@ -107,7 +107,7 @@ color:rgb(101, 111, 91);*/
 
 #media {
     top: 6950%;
-    height: 400%;
+    height: 700%;
 
 }
 
@@ -505,6 +505,12 @@ background-color: blue;
 
 #marshallmemo{
         background-image: url(./imgs/marshallmemo.png)
+
+
+}
+
+#sop{
+        background-image: url(./imgs/sop.jpg)
 
 
 }
@@ -1493,7 +1499,7 @@ background-color: blue;
 
     #media {
         top: 4100%;
-        height: 400%;
+        height: 500%;
     }
 
     #disclaimer {
