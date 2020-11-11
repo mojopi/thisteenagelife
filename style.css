@@ -477,6 +477,10 @@ background-color: blue;
     background-image: url(./imgs/snacks.png)
 }
 
+#election {
+    background-image: url(./imgs/election.png)
+}
+
 #allyship {
     background-image: url(./imgs/allyship.png)
 }
