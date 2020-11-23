@@ -107,7 +107,7 @@ color:rgb(101, 111, 91);*/
 
 #media {
     top: 6950%;
-    height: 700%;
+    height: 800%;
 
 }
 
@@ -479,6 +479,10 @@ background-color: blue;
 
 #election {
     background-image: url(./imgs/election.png)
+}
+
+#civilTea {
+    background-image: url(./imgs/civilTea.png)
 }
 
 #allyship {
@@ -1530,7 +1534,7 @@ background-color: blue;
 
     #media {
         top: 4100%;
-        height: 500%;
+        height: 700%;
     }
 
     #disclaimer {
