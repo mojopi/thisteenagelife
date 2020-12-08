@@ -480,6 +480,12 @@ background-color: blue;
 #election {
     background-image: url(./imgs/election.png)
 }
+#pretendAdulting {
+	height:25vw;
+	background-position:10px 40px;
+	background-size:contain;
+    background-image: url(./imgs/pretendAdulting.png)
+}
 
 #civilTea {
     background-image: url(./imgs/civilTea.png)
