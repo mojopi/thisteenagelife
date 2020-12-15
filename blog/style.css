@@ -13,10 +13,10 @@ h4 {
     font-size: 30px;
 }
 
-.blog-body {
+body {
     background-image: url(./imgs/purple-background.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+/*    background-repeat: no-repeat;
+*/    background-size: cover;
     font-family: 'Quicksand', sans-serif;
     padding: 50px;
 
@@ -179,4 +179,14 @@ a {
     width: 100%;
     height: 100%;
     background-size: cover;
+}
+
+
+@media (max-device-width: 667px) {
+
+
+body {
+    background-image: url(./imgs/purple-background.png);
+    background-size:cover;
+
 }
