@@ -4,6 +4,11 @@ body {
 
 }
 
+a{
+    color:rgb(35, 99, 183)
+}
+
+li{color:rgb(35, 99, 183)}
 
 h2 {
     font-size: 50px;
@@ -24,6 +29,9 @@ body {
 
 .blog-entry-text {
     font-size: 20px;
+    width:70%;
+    position:relative;
+    left:0%;
 }
 
 #stories {
