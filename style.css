@@ -481,6 +481,33 @@ background-color: blue;
     background-image: url(./imgs/election.png)
 }
 
+#daydreams{
+
+ background-image: url(./imgs/daydreams.png);
+
+
+}
+
+#fragileDemocracy{
+
+ background-image: url(./imgs/fragileDemocracy.png);
+
+
+}
+
+#disconnected{
+
+ background-image: url(./imgs/disconnected.png);
+
+
+}
+
+#disconnected{
+
+ background-image: url(./imgs/disconnected.png);
+
+
+}
 #loneliness{
     height:25vw;
     background-position:10px 40px;
