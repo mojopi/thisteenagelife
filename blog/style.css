@@ -4,11 +4,13 @@ body {
 
 }
 
-a{
-    color:rgb(35, 99, 183)
+a {
+    color: rgb(35, 99, 183)
 }
 
-li{color:rgb(35, 99, 183)}
+li {
+    color: rgb(35, 99, 183)
+}
 
 h2 {
     font-size: 50px;
@@ -20,8 +22,9 @@ h4 {
 
 body {
     background-image: url(./imgs/purple-background.png);
-/*    background-repeat: no-repeat;
-*/    background-size: cover;
+    /*    background-repeat: no-repeat;
+*/
+    background-size: cover;
     font-family: 'Quicksand', sans-serif;
     padding: 50px;
 
@@ -29,9 +32,9 @@ body {
 
 .blog-entry-text {
     font-size: 20px;
-    width:70%;
-    position:relative;
-    left:0%;
+    width: 70%;
+    position: relative;
+    left: 0%;
 }
 
 #stories {
@@ -189,12 +192,73 @@ a {
     background-size: cover;
 }
 
+td {
+/*    border:10px solid rgba(200, 200, 200, 0);
+*/    padding:5%;
+    width: 40%;
+    height: 400px;
+        background-color:rgba(200, 200, 200, 0.5);
+
+}
+
+table {
+    width: 100%;
+    left: 0%;
+    position: relative;
+}
+
+.roomImage {
+    height: 400px;
+    width: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#cami {
+    background-image: url(./imgs/camiRoom.png);
+}
+
+#collette {
+    background-image: url(./imgs/colletteRoom.png);
+}
+
+#cloe {
+    background-image: url(./imgs/cloeRoom.png);
+}
+
+#olivia {
+    background-image: url(./imgs/oliviaRoom.png);
+}
+
+#jade {
+    background-image: url(./imgs/jadeRoom.png);
+}
+
+#jayden {
+    background-image: url(./imgs/jaydenRoom.png);
+}
+
+#shakara {
+    background-image: url(./imgs/shakaraRoom.png);
+}
+
+#torrien {
+    background-image: url(./imgs/torrienRoom.png);
+}
+
+#taylor {
+    background-image: url(./imgs/taylorRoom.png);
+}
+
+#mollyz {
+    background-image: url(./imgs/mollyzRoom.png);
+}
 
 @media (max-device-width: 667px) {
 
 
-body {
-    background-image: url(./imgs/purple-background.png);
-    background-size:cover;
+    body {
+        background-image: url(./imgs/purple-background.png);
+        background-size: cover;
 
-}
+    }
