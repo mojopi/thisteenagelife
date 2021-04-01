@@ -1571,7 +1571,7 @@ background-color: blue;
 
     #episodes {
         top: 500%;
-        height: 2000%;
+        height: 3000%;
     }
 
  /*#disclaimer {
@@ -1579,15 +1579,28 @@ background-color: blue;
     }*/
     #guides {
 
-        top: 2500%;
-        height: 1200%;
+        top: 3500%;
+        height: 2000%;
 
     }
 
-    #swag {
-        top: 3700%;
+      #swag {
+        top: 5500%;
         height: 200%;
     }
+
+     #team {
+        top: 5700%;
+        height: 200%;
+    }
+
+  
+
+      #media {
+        top: 5900%;
+        height: 700%;
+    }
+
 
     #episode-text{
         font-size:4vw;
@@ -1595,24 +1608,6 @@ background-color: blue;
 
 
 
-
-
-    /* #first-cuts {
-        top: 600%;
-        height: 50%;
-    }*/
-
-
-
-    #team {
-        top: 3900%;
-        height: 200%;
-    }
-
-    #media {
-        top: 4100%;
-        height: 700%;
-    }
 
     #disclaimer {
         top: 40%;
