@@ -30,12 +30,36 @@ color:rgb(101, 111, 91);*/
     text-decoration: none;
 }
 
+.listenButton{
+    width:80%;
+    height:100px;
+    left:0%;
+    position:relative;
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity:0.7;
+}
+
+#apple{
+        background-image:url(./imgs/apple.png);
+
+
+}
+
+#spotify{
+    background-image:url(./imgs/spotify.png);
+    
+}
+
 #section1 {
     top: 0%;
     height: 100%;
 
 
 }
+
+
 
 #about {
     top: 100%;
@@ -80,7 +104,7 @@ color:rgb(101, 111, 91);*/
 
 #episodes {
     top: 700%;
-    height: 3800%;
+    height: 4000%;
     background-repeat: repeat;
     /* padding-left: 20%;
     padding-top: 5%;*/
@@ -89,24 +113,24 @@ color:rgb(101, 111, 91);*/
 
 #guides {
 
-    top: 4500%;
+    top: 4700%;
     height: 1500%;
 
 }
 
 #swag {
-    top: 6000%;
+    top: 6200%;
     height: 350%;
 }
 
 #team {
-    top: 6350%;
+    top: 6550%;
     height: 600%;
 
 }
 
 #media {
-    top: 6950%;
+    top: 7150%;
     height: 800%;
 
 }
@@ -607,6 +631,11 @@ background-color: blue;
 
 #teenvogue{
         background-image: url(./imgs/teenvogue.png)
+
+
+}
+#teenvogue2{
+        background-image: url(./imgs/teenvogue2.png)
 
 
 }
