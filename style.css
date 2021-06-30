@@ -104,7 +104,7 @@ color:rgb(101, 111, 91);*/
 
 #episodes {
     top: 700%;
-    height: 4000%;
+    height: 4400%;
     background-repeat: repeat;
     /* padding-left: 20%;
     padding-top: 5%;*/
@@ -113,24 +113,24 @@ color:rgb(101, 111, 91);*/
 
 #guides {
 
-    top: 4700%;
+    top: 5100%;
     height: 1500%;
 
 }
 
 #swag {
-    top: 6200%;
+    top: 6600%;
     height: 350%;
 }
 
 #team {
-    top: 6550%;
+    top: 6950%;
     height: 600%;
 
 }
 
 #media {
-    top: 7150%;
+    top: 7550%;
     height: 800%;
 
 }
@@ -522,6 +522,22 @@ background-color: blue;
 
 #growUp {
     background-image: url(./imgs/growUp.png);
+}
+
+#divorce {
+    background-image: url(./imgs/divorce.png);
+}
+
+#femininity {
+    background-image: url(./imgs/femininity.png);
+}
+
+#juneteenth {
+    background-image: url(./imgs/juneteenth.png);
+}
+
+#thankYouNext {
+    background-image: url(./imgs/thankYouNext.png);
 }
 
 #vaccine {
@@ -1628,7 +1644,7 @@ background-color: blue;
 
     #episodes {
         top: 500%;
-        height: 3000%;
+        height: 3300%;
     }
 
  /*#disclaimer {
@@ -1636,25 +1652,25 @@ background-color: blue;
     }*/
     #guides {
 
-        top: 3500%;
+        top: 3700%;
         height: 2000%;
 
     }
 
       #swag {
-        top: 5500%;
+        top: 5700%;
         height: 200%;
     }
 
      #team {
-        top: 5700%;
+        top: 5900%;
         height: 200%;
     }
 
   
 
       #media {
-        top: 5900%;
+        top: 6200%;
         height: 700%;
     }
 
