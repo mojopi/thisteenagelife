@@ -528,6 +528,10 @@ background-color: blue;
     background-image: url(./imgs/divorce.png);
 }
 
+#body-image {
+    background-image: url(./imgs/body-image.png);
+}
+
 #femininity {
     background-image: url(./imgs/femininity.png);
 }
