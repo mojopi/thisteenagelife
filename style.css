@@ -268,35 +268,26 @@ color:rgb(101, 111, 91);*/
 #bar {
 
     font-family: 'Chelsea Market', cursive;
-
-
-    /*        font-family: 'Abril Fatface', cursive;
-*/
-    /*    font-family: 'Cabin Sketch', cursive;
-*/
-
-    /*font-family: 'Fredoka One', cursive;
-*/
-    /*    font-family: 'Passion One', cursive;
-*/
     padding-left: 2%;
     width: 15%;
     height: 100%;
     top: 0%;
     position: fixed;
     background-color: rgb(245, 245, 245, 0.2);
-    color: white;
-    /*    color: rgb(105, 105, 105);
-*/
-
-    /*    font-family: 'Unlock', cursive;
-*/
     font-size: 2vw;
 }
 
+#bar a{
+    color: rgb(105, 105, 105);
+
+}
+
+
+
+
 a {
     text-decoration: none;
-    font-color: black;
+    color:rgb(35, 99, 183)
 }
 
 #disclaimer {
@@ -532,6 +523,10 @@ background-color: blue;
     background-image: url(./imgs/body-image.png);
 }
 
+#friendship {
+    background-image: url(./imgs/peaPods2.png);
+}
+
 #femininity {
     background-image: url(./imgs/femininity.png);
 }
@@ -565,6 +560,13 @@ background-color: blue;
 #hair-part2{
 
  background-image: url(./imgs/hairPart2.png);
+
+
+}
+
+#maintainingFriendship{
+
+ background-image: url(./imgs/maintainingFriendship.png);
 
 
 }
