@@ -104,7 +104,7 @@ color:rgb(101, 111, 91);*/
 
 #episodes {
     top: 700%;
-    height: 4400%;
+    height: 6000%;
     background-repeat: repeat;
     /* padding-left: 20%;
     padding-top: 5%;*/
@@ -113,24 +113,24 @@ color:rgb(101, 111, 91);*/
 
 #guides {
 
-    top: 5100%;
+    top: 6700%;
     height: 1500%;
 
 }
 
 #swag {
-    top: 6600%;
+    top: 8200%;
     height: 350%;
 }
 
 #team {
-    top: 6950%;
-    height: 600%;
+    top: 8550%;
+    height: 800%;
 
 }
 
 #media {
-    top: 7550%;
+    top: 9350%;
     height: 800%;
 
 }
@@ -1669,7 +1669,7 @@ background-color: blue;
 
     #episodes {
         top: 500%;
-        height: 3300%;
+        height: 4000%;
     }
 
  /*#disclaimer {
@@ -1677,25 +1677,25 @@ background-color: blue;
     }*/
     #guides {
 
-        top: 3700%;
+        top: 4500%;
         height: 2000%;
 
     }
 
       #swag {
-        top: 5700%;
+        top: 6500%;
         height: 200%;
     }
 
      #team {
-        top: 5900%;
+        top: 6700%;
         height: 200%;
     }
 
   
 
       #media {
-        top: 6200%;
+        top: 6900%;
         height: 700%;
     }
 
