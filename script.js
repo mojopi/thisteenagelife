@@ -1,6 +1,190 @@
-function makeHeadshot(d) {
+function makeHeadshot4(d) {
     var headshot = document.createElement("div");
-    var faces = document.getElementById("faces")
+    var faces2 = document.getElementById("faces4")
+    headshot.id = "headshotD" + d;
+    faces2.appendChild(headshot);
+    headshot.classList.add("headshot");
+
+    var description = document.createElement("div");
+
+    description.id = "descriptionD" + d;
+    headshot.appendChild(description);
+    description.classList.add("description-invisible");
+
+
+    description.addEventListener("click", function() {
+        description.classList.add("description-apparent");
+
+
+    })
+
+    description.addEventListener("animationend", function() {
+        description.classList.remove("description-apparent");
+    })
+
+
+
+
+    var name = document.createElement("div");
+    document.getElementById("headshotD" + i).appendChild(name);
+    name.classList.add("name");
+    name.id = "nameD" + i;
+
+
+}
+
+
+for (i = 0; i < 7; i++) { makeHeadshot4(i)};
+
+document.getElementById('nameD0').innerText = "Alexis";
+
+document.getElementById('descriptionD0').innerHTML = "";
+
+document.getElementById('nameD1').innerText = "Caylin";
+document.getElementById('descriptionD1').innerHTML = "";
+
+document.getElementById('nameD2').innerText = "Eva";
+document.getElementById('descriptionD2').innerHTML = "";
+
+document.getElementById('nameD3').innerText = "Jayden";
+document.getElementById('descriptionD3').innerHTML = "";
+
+document.getElementById('nameD4').innerText = "Lydia";
+document.getElementById('descriptionD4').innerHTML = "";
+
+document.getElementById('nameD5').innerText = "Stella";
+document.getElementById('descriptionD5').innerHTML = "";
+
+document.getElementById('nameD5').innerText = "Molly J.";
+document.getElementById('descriptionD5').innerHTML = "";
+
+
+
+function makeHeadshot3(d) {
+    var headshot = document.createElement("div");
+    var faces3 = document.getElementById("faces3")
+    headshot.id = "headshotC" + d;
+    faces3.appendChild(headshot);
+    headshot.classList.add("headshot");
+
+    var description = document.createElement("div");
+
+    description.id = "descriptionC" + d;
+    headshot.appendChild(description);
+    description.classList.add("description-invisible");
+
+
+    description.addEventListener("click", function() {
+        description.classList.add("description-apparent");
+
+
+    })
+
+    description.addEventListener("animationend", function() {
+        description.classList.remove("description-apparent");
+    })
+
+
+
+
+    var name = document.createElement("div");
+    document.getElementById("headshotC" + i).appendChild(name);
+    name.classList.add("name");
+    name.id = "nameC" + i;
+
+
+}
+
+
+for (i = 0; i < 6; i++) { makeHeadshot3(i)};
+
+    document.getElementById('nameC0').innerText = "Aishwarya";
+
+document.getElementById('descriptionC0').innerHTML = "";
+
+document.getElementById('nameC1').innerText = "Bhargabi";
+document.getElementById('descriptionC1').innerHTML = "'I was born in a zoo with the monkeys sans the kangaroos'";
+
+document.getElementById('nameC2').innerText = "Divya ";
+document.getElementById('descriptionC2').innerHTML = "";
+
+document.getElementById('nameC3').innerText = "Kashika ";
+document.getElementById('descriptionC3').innerHTML = "'There is no force more powerful than a woman determined to rise.'";
+
+document.getElementById('nameC4').innerText = "Krithiga";
+document.getElementById('descriptionC4').innerHTML = "";
+
+document.getElementById('nameC5').innerText = "Maitreyi";
+document.getElementById('descriptionC5').innerHTML = "'Dear old world, you are very lovely and I am glad to be alive in you.' — Anne Shirley (from Anne of Green Gables)";
+
+
+
+function makeHeadshot2(d) {
+    var headshot = document.createElement("div");
+    var faces2 = document.getElementById("faces2")
+    headshot.id = "headshotB" + d;
+    faces2.appendChild(headshot);
+    headshot.classList.add("headshot");
+
+    var description = document.createElement("div");
+
+    description.id = "descriptionB" + d;
+    headshot.appendChild(description);
+    description.classList.add("description-invisible");
+
+
+    description.addEventListener("click", function() {
+        description.classList.add("description-apparent");
+
+
+    })
+
+    description.addEventListener("animationend", function() {
+        description.classList.remove("description-apparent");
+    })
+
+
+
+
+    var name = document.createElement("div");
+    document.getElementById("headshotB" + i).appendChild(name);
+    name.classList.add("name");
+    name.id = "nameB" + i;
+
+
+}
+
+
+for (i = 0; i < 7; i++) { makeHeadshot2(i)};
+
+document.getElementById('nameB0').innerText = "Cami";
+
+document.getElementById('descriptionB0').innerHTML = "";
+
+document.getElementById('nameB1').innerText = "Cloe";
+document.getElementById('descriptionB1').innerHTML = "";
+
+document.getElementById('nameB2').innerText = "Jade";
+document.getElementById('descriptionB2').innerHTML = "";
+
+document.getElementById('nameB3').innerText = "Molly Z.";
+document.getElementById('descriptionB3').innerHTML = "";
+
+document.getElementById('nameB4').innerText = "Olivia";
+document.getElementById('descriptionB4').innerHTML = "";
+
+document.getElementById('nameB5').innerText = "Shreena";
+document.getElementById('descriptionB5').innerHTML = "";
+
+document.getElementById('nameB6').innerText = "Taylor";
+document.getElementById('descriptionB6').innerHTML = "";
+
+
+
+
+function makeHeadshot1(d) {
+    var headshot = document.createElement("div");
+    var faces = document.getElementById("faces1")
     headshot.id = "headshot" + d;
     console.log(headshot.id);
     faces.appendChild(headshot);
@@ -40,7 +224,7 @@ function makeHeadshot(d) {
 
 
 
-for (i = 0; i < 39; i++) { makeHeadshot(i) };
+for (i = 0; i < 39; i++) { makeHeadshot1(i) };
 
 
 document.getElementById('name0').innerText = "Olivia";

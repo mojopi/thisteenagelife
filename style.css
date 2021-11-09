@@ -120,18 +120,18 @@ color:rgb(101, 111, 91);*/
 
 #swag {
     top: 8200%;
-    height: 350%;
+    height: 250%;
 }
 
 #team {
-    top: 8550%;
-    height: 800%;
+    top: 8450%;
+    height: 1000%;
 
 }
 
 #media {
-    top: 9350%;
-    height: 800%;
+    top: 9450%;
+    height: 1200%;
 
 }
 
@@ -531,6 +531,10 @@ background-color: blue;
     background-image: url(./imgs/inadequacy.png);
 }
 
+#filters {
+    background-image: url(./imgs/filters.png);
+}
+
 #bookMagic {
     background-image: url(./imgs/bookMagic.png);
 }
@@ -888,15 +892,15 @@ background-color: blue;
     background-image: url(./imgs/twitter.png);
 }
 
-#faces {
-    top:2%;
+.faces {
+    
     position: relative;
     left: 17%;
-    /*z-index: 2;*/
     width: 80%;
-    height: 100%;
     padding: 2%;
 }
+
+
 
 .headshot {
     background-color: rgba(245, 245, 245, 0.5);
@@ -990,8 +994,140 @@ background-color: blue;
 
 }
 
-#headshot0 {
-    background-image: url(./imgs/olivia1.jpg);
+
+#headshotD6 {
+    background-image: url(./imgs/mollyj2.png);
+
+}
+
+#headshotD5 {
+    background-image: url(./imgs/stella.jpg);
+
+}
+
+#headshotD4:hover {
+    background-image: url(./imgs/lydia2.jpg);
+
+}
+
+#headshotD4 {
+    background-image: url(./imgs/lydia1.jpg);
+
+}
+
+
+
+#headshotD3 {
+    background-image: url(./imgs/jayden.jpg);
+
+}
+
+#headshotD2 {
+    background-image: url(./imgs/eva1.jpg);
+
+}
+
+#headshotD2:hover {
+    background-image: url(./imgs/eva2.jpg);
+
+}
+
+
+
+#headshotD1 {
+    background-image: url(./imgs/caylin.jpg);
+
+}
+
+#headshotD0:hover {
+    background-image: url(./imgs/alexis2.png);
+
+}
+
+#headshotD0 {
+    background-image: url(./imgs/alexis1.jpg);
+
+}
+
+
+
+#headshotC5 {
+    background-image: url(./imgs/maitreyi.jpg);
+
+}
+
+#headshotC4 {
+    background-image: url(./imgs/krithiga.jpg);
+
+}
+
+#headshotC3 {
+    background-image: url(./imgs/kashika.jpg);
+
+}
+
+#headshotC2 {
+    background-image: url(./imgs/divya.jpg);
+
+}
+
+#headshotC1 {
+    background-image: url(./imgs/bhargabi.jpg);
+
+}
+
+#headshotC0 {
+    background-image: url(./imgs/aishwarya.jpg);
+
+}
+
+#headshotB4 {
+    background-image: url(./imgs/oliviaB1.png);
+
+}
+
+#headshotB5 {
+    background-image: url(./imgs/shreenaB1.png);
+
+}
+
+#headshotB6 {
+    background-image: url(./imgs/taylorB1.png);
+
+}
+
+#headshotB0 {
+    background-image: url(./imgs/camiB1.png);
+
+}
+
+#headshotB1 {
+    background-image: url(./imgs/cloeB1.png);
+
+}
+
+#headshotB2 {
+    background-image: url(./imgs/jadeB1.png);
+
+}
+
+#headshotB3 {
+    background-image: url(./imgs/mollyz.png);
+
+}
+
+#headshotB4 {
+    background-image: url(./imgs/oliviaB1.png);
+
+}
+
+#headshotB5 {
+    background-image: url(./imgs/shreenaB1.png);
+
+}
+
+#headshotB6 {
+    background-image: url(./imgs/taylorB1.png);
 
 }
 
@@ -999,6 +1135,14 @@ background-color: blue;
     background-image: url(./imgs/olivia2.jpg);
 
 }
+
+#headshot0{
+    background-image: url(./imgs/olivia.jpg);
+
+}
+
+
+
 
 #headshot1 {
     background-image: url(./imgs/cloe.jpg);
@@ -1689,13 +1833,13 @@ background-color: blue;
 
      #team {
         top: 6700%;
-        height: 200%;
+        height: 500%;
     }
 
   
 
       #media {
-        top: 6900%;
+        top: 7200%;
         height: 700%;
     }
 
