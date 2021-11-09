@@ -34,7 +34,7 @@ function makeHeadshot4(d) {
 }
 
 
-for (i = 0; i < 7; i++) { makeHeadshot4(i)};
+for (i = 0; i < 8; i++) { makeHeadshot4(i)};
 
 document.getElementById('nameD0').innerText = "Alexis";
 
@@ -55,7 +55,10 @@ document.getElementById('descriptionD4').innerHTML = "";
 document.getElementById('nameD5').innerText = "Stella";
 document.getElementById('descriptionD5').innerHTML = "";
 
-document.getElementById('nameD5').innerText = "Molly J.";
+document.getElementById('nameD6').innerText = "Sophia";
+document.getElementById('descriptionD5').innerHTML = "";
+
+document.getElementById('nameD7').innerText = "Molly J.";
 document.getElementById('descriptionD5').innerHTML = "";
 
 
