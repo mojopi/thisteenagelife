@@ -99,7 +99,7 @@ function makeHeadshot3(d) {
 }
 
 
-for (i = 0; i < 6; i++) { makeHeadshot3(i)};
+for (i = 0; i < 7; i++) { makeHeadshot3(i)};
 
     document.getElementById('nameC0').innerText = "Aishwarya";
 
@@ -120,6 +120,8 @@ document.getElementById('descriptionC4').innerHTML = "";
 document.getElementById('nameC5').innerText = "Maitreyi";
 document.getElementById('descriptionC5').innerHTML = "'Dear old world, you are very lovely and I am glad to be alive in you.' — Anne Shirley (from Anne of Green Gables)";
 
+document.getElementById('nameC6').innerText = "Yashasvi";
+document.getElementById('descriptionC6').innerHTML = "'Work hard in silence. Let your success be your noise.'";
 
 
 function makeHeadshot2(d) {
