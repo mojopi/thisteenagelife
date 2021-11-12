@@ -99,32 +99,36 @@ function makeHeadshot3(d) {
 }
 
 
-for (i = 0; i < 7; i++) { makeHeadshot3(i)};
+for (i = 0; i < 9; i++) { makeHeadshot3(i)};
 
     document.getElementById('nameC0').innerText = "Aishwarya";
 
 document.getElementById('descriptionC0').innerHTML = "";
 
-document.getElementById('nameC1').innerText = "Bhargabi";
-document.getElementById('descriptionC1').innerHTML = "'I was born in a zoo with the monkeys sans the kangaroos'";
+document.getElementById('nameC1').innerText = "Artishta";
 
-document.getElementById('nameC2').innerText = "Divya ";
-document.getElementById('descriptionC2').innerHTML = "";
+document.getElementById('descriptionC1').innerHTML = "";
 
-document.getElementById('nameC3').innerText = "Kashika ";
-document.getElementById('descriptionC3').innerHTML = "'There is no force more powerful than a woman determined to rise.'";
+document.getElementById('nameC2').innerText = "Bhargabi";
+document.getElementById('descriptionC2').innerHTML = "'I was born in a zoo with the monkeys sans the kangaroos'";
 
-document.getElementById('nameC4').innerText = "Krithiga";
-document.getElementById('descriptionC4').innerHTML = "";
+document.getElementById('nameC3').innerText = "Divya ";
+document.getElementById('descriptionC3').innerHTML = "";
 
-document.getElementById('nameC5').innerText = "Maitreyi";
-document.getElementById('descriptionC5').innerHTML = "'Dear old world, you are very lovely and I am glad to be alive in you.' — Anne Shirley (from Anne of Green Gables)";
+document.getElementById('nameC4').innerText = "Kashika ";
+document.getElementById('descriptionC4').innerHTML = "'There is no force more powerful than a woman determined to rise.'";
 
-document.getElementById('nameC6').innerText = "Saniya";
-document.getElementById('descriptionC6').innerHTML = "";
+document.getElementById('nameC5').innerText = "Krithiga";
+document.getElementById('descriptionC5').innerHTML = "";
 
-document.getElementById('nameC7').innerText = "Yashasvi";
-document.getElementById('descriptionC6').innerHTML = "'Work hard in silence. Let your success be your noise.'";
+document.getElementById('nameC6').innerText = "Maitreyi";
+document.getElementById('descriptionC6').innerHTML = "'Dear old world, you are very lovely and I am glad to be alive in you.' — Anne Shirley (from Anne of Green Gables)";
+
+document.getElementById('nameC7').innerText = "Saniya";
+document.getElementById('descriptionC7').innerHTML = "";
+
+document.getElementById('nameC8').innerText = "Yashasvi";
+document.getElementById('descriptionC8').innerHTML = "'Work hard in silence. Let your success be your noise.'";
 
 
 function makeHeadshot2(d) {
