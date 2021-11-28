@@ -118,7 +118,7 @@ color:rgb(101, 111, 91);*/
 
 }
 
-#swag {
+#testimonies {
     top: 8200%;
     height: 250%;
 }
@@ -533,6 +533,10 @@ background-color: blue;
 
 #filters {
     background-image: url(./imgs/filters.png);
+}
+
+#anxiety {
+    background-image: url(./imgs/anxiety1.png);
 }
 
 #bookMagic {
@@ -1056,6 +1060,11 @@ background-color: blue;
 
 #headshotC8 {
     background-image: url(./imgs/yashasvi.jpg);
+
+}
+
+#headshotC9 {
+    background-image: url(./imgs/aanya.jpg);
 
 }
 
@@ -1844,7 +1853,7 @@ background-color: blue;
 
     }
 
-      #swag {
+      #testimonies {
         top: 6500%;
         height: 200%;
     }

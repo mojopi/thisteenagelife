@@ -99,13 +99,13 @@ function makeHeadshot3(d) {
 }
 
 
-for (i = 0; i < 9; i++) { makeHeadshot3(i)};
+for (i = 0; i < 10; i++) { makeHeadshot3(i)};
 
     document.getElementById('nameC0').innerText = "Aishwarya";
 
 document.getElementById('descriptionC0').innerHTML = "";
 
-document.getElementById('nameC1').innerText = "Artishta";
+document.getElementById('nameC1').innerText = "Arshita";
 
 document.getElementById('descriptionC1').innerHTML = "";
 
@@ -119,7 +119,7 @@ document.getElementById('nameC4').innerText = "Kashika ";
 document.getElementById('descriptionC4').innerHTML = "'There is no force more powerful than a woman determined to rise.'";
 
 document.getElementById('nameC5').innerText = "Krithiga";
-document.getElementById('descriptionC5').innerHTML = "";
+document.getElementById('descriptionC5').innerHTML = "You don't attract what you want, you attract what you are.";
 
 document.getElementById('nameC6').innerText = "Maitreyi";
 document.getElementById('descriptionC6').innerHTML = "'Dear old world, you are very lovely and I am glad to be alive in you.' — Anne Shirley (from Anne of Green Gables)";
@@ -130,6 +130,8 @@ document.getElementById('descriptionC7').innerHTML = "";
 document.getElementById('nameC8').innerText = "Yashasvi";
 document.getElementById('descriptionC8').innerHTML = "'Work hard in silence. Let your success be your noise.'";
 
+document.getElementById('nameC9').innerText = "Aanya";
+document.getElementById('descriptionC9').innerHTML = "'You are all the colors in one, at full brightness.'";
 
 function makeHeadshot2(d) {
     var headshot = document.createElement("div");
