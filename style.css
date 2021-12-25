@@ -539,6 +539,14 @@ background-color: blue;
     background-image: url(./imgs/anxiety1.png);
 }
 
+#depression {
+    background-image: url(./imgs/depression.png);
+}
+
+#crushes {
+    background-image: url(./imgs/crushes.png);
+}
+
 #bookMagic {
     background-image: url(./imgs/bookMagic.png);
 }
