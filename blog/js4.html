@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   
+    <title></title>
+
+<style type="text/css">
+	
+	.soup{
+		position: absolute;
+		width: 100px;
+		height: 100px;
+		background-size: cover;
+		background-image: url(https://iowagirleats.com/wp-content/uploads/2014/10/The-BEST-Chicken-Noodle-Soup-iowagirleats-Featured-srgb.jpg);
+	}
+</style>
+
+</head>
+
+<body>
+    <script type="text/javascript">
+    
+
+    document.addEventListener("mousemove",
+    	function soupThereItIs(input) {
+        var soup = document.createElement("div")
+        document.body.appendChild(soup);
+        soup.classList.add("soup")
+
+        soup.style.left = input.clientX -50+ "px";
+        soup.style.top = input.clientY -50+ "px";
+        console.log(input);
+
+
+    } )
+    </script>
+</body>
+
+</html>

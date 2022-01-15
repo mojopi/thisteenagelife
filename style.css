@@ -539,6 +539,10 @@ background-color: blue;
     background-image: url(./imgs/anxiety1.png);
 }
 
+#crushes {
+    background-image: url(./imgs/crushes.png);
+}
+
 #depression {
     background-image: url(./imgs/depression.png);
 }

@@ -1,3 +1,7 @@
+
+
+alert("🎙️Are you interested in joining This Teenage Life?! If so, fill out our interest form! (Link on the menu bar on the left!)🎙️")
+
 function makeHeadshot4(d) {
     var headshot = document.createElement("div");
     var faces2 = document.getElementById("faces4")
