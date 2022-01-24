@@ -296,6 +296,9 @@ a {
     top: 94%;
     font-size: 1vw;
     text-align: left;
+    padding-left: 5px;
+    padding-right: 5px;
+
 
 }
 
@@ -397,6 +400,14 @@ background-color: blue;
     padding-top: 10%;
     /*    background-color:red;
 */
+}
+
+#microaggressions {
+    background-image: url(./imgs/microaggressions.png);
+}
+
+#behindScenes {
+    background-image: url(./imgs/ttlBehindScenes.png);
 }
 
 #power {
