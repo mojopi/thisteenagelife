@@ -104,7 +104,7 @@ color:rgb(101, 111, 91);*/
 
 #episodes {
     top: 700%;
-    height: 6000%;
+    height: 7000%;
     background-repeat: repeat;
     /* padding-left: 20%;
     padding-top: 5%;*/
@@ -113,24 +113,24 @@ color:rgb(101, 111, 91);*/
 
 #guides {
 
-    top: 6700%;
+    top: 7700%;
     height: 1500%;
 
 }
 
 #testimonies {
-    top: 8200%;
+    top: 9200%;
     height: 250%;
 }
 
 #team {
-    top: 8450%;
+    top: 9450%;
     height: 1000%;
 
 }
 
 #media {
-    top: 9450%;
+    top: 10450%;
     height: 1200%;
 
 }
@@ -556,8 +556,28 @@ background-color: blue;
 
 }
 
-#crushes {
-    background-image: url(./imgs/crushes.png);
+#askingQuestions {
+    background-image: url(./imgs/askingQuestions.png);
+}
+
+#invisibleFriends {
+    background-image: url(./imgs/invisibleFriends.png);
+}
+
+#productivityCulture {
+    background-image: url(./imgs/productivityCulture.png);
+}
+
+#BHM {
+    background-image: url(./imgs/BHM.png);
+}
+
+#poemsForUkraine {
+    background-image: url(./imgs/poemsForUkraine.png);
+}
+
+#joySparks {
+    background-image: url(./imgs/joySparks.png);
 }
 
 #depression {
@@ -1869,33 +1889,31 @@ background-color: blue;
 
     #episodes {
         top: 500%;
-        height: 4000%;
+        height: 5000%;
     }
 
- /*#disclaimer {
-       font-size:5vw;
-    }*/
+
     #guides {
 
-        top: 4500%;
+        top: 5500%;
         height: 2000%;
 
     }
 
       #testimonies {
-        top: 6500%;
+        top: 7500%;
         height: 200%;
     }
 
      #team {
-        top: 6700%;
+        top: 7700%;
         height: 500%;
     }
 
   
 
       #media {
-        top: 7200%;
+        top: 8200%;
         height: 700%;
     }
 
