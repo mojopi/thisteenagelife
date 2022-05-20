@@ -588,6 +588,19 @@ background-color: blue;
     background-image: url(./imgs/crushes.png);
 }
 
+#realLearning {
+    background-image: url(./imgs/realLearning.png);
+}
+
+#syMontgomery {
+    background-image: url(./imgs/syMontgomery.png);
+}
+
+#loss {
+    background-image: url(./imgs/loss.png);
+}
+
+
 #feelingSeen {
     background-image: url(./imgs/feelingSeen.png);
 }
