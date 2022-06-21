@@ -239,6 +239,23 @@ color:rgb(101, 111, 91);*/
 
 }*/
 
+
+#homeVSchool {
+    background-image: url(./imgs/homeVSchool.png);
+}
+
+#pandemicChangedUs {
+    background-image: url(./imgs/pandemicChangedUs.png);
+}
+
+#friendProblems {
+    background-image: url(./imgs/friendProblems.png);
+}
+
+#hiddenDisability {
+    background-image: url(./imgs/hiddenDisability.png);
+}
+
 #mothersday {
     background-image: url(./imgs/mothersday2.png);
 }
