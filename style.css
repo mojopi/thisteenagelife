@@ -256,6 +256,31 @@ color:rgb(101, 111, 91);*/
     background-image: url(./imgs/hiddenDisability.png);
 }
 
+#siblingDynamics {
+    background-image: url(./imgs/siblingDynamics.png);
+}
+
+#therapy {
+    background-image: url(./imgs/therapy.png);
+}
+
+#comingOutStory {
+    background-image: url(./imgs/comingOutStory.png);
+}
+
+#throwbackEpisode {
+    background-image: url(./imgs/throwbackEpisode.png);
+}
+
+#grapplingWithAcne {
+    background-image: url(./imgs/grapplingWithAcne.png);
+}
+
+#therapy {
+    background-image: url(./imgs/therapy.png);
+}
+
+
 #mothersday {
     background-image: url(./imgs/mothersday2.png);
 }
