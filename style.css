@@ -256,6 +256,10 @@ color:rgb(101, 111, 91);*/
     background-image: url(./imgs/hiddenDisability.png);
 }
 
+#transitions {
+    background-image: url(./imgs/transitions.png);
+}
+
 #siblingDynamics {
     background-image: url(./imgs/siblingDynamics.png);
 }
