@@ -104,7 +104,7 @@ color:rgb(101, 111, 91);*/
 
 #episodes {
     top: 700%;
-    height: 7000%;
+    height: 9100%;
     background-repeat: repeat;
     /* padding-left: 20%;
     padding-top: 5%;*/
@@ -113,24 +113,24 @@ color:rgb(101, 111, 91);*/
 
 #guides {
 
-    top: 7700%;
+    top: 9600%;
     height: 1500%;
 
 }
 
 #testimonies {
-    top: 9200%;
+    top: 11100%;
     height: 400%;
 }
 
 #team {
-    top: 9600%;
+    top: 11500%;
     height: 1000%;
 
 }
 
 #media {
-    top: 10600%;
+    top: 12500%;
     height: 1200%;
 
 }
@@ -258,6 +258,10 @@ color:rgb(101, 111, 91);*/
 
 #transitions {
     background-image: url(./imgs/transitions.png);
+}
+
+#makingFriends {
+    background-image: url(./imgs/makingFriends.png);
 }
 
 #siblingDynamics {
