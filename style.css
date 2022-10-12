@@ -240,6 +240,10 @@ color:rgb(101, 111, 91);*/
 }*/
 
 
+#selfCare {
+    background-image: url(./imgs/selfCare.png);
+}
+
 #homeVSchool {
     background-image: url(./imgs/homeVSchool.png);
 }
