@@ -1,12 +1,62 @@
 
 
-alert("🎙️Are you interested in joining This Teenage Life?! If so, fill out our interest form! (Link on the menu bar on the left!)🎙️")
+alert("🎙️Are you interested in joining This Teenage Life?! If so, fill out our interest form! (Link on the menu bar on the left!)🎙️");
+
+
+function makeHeadshot5(d) {
+    var headshot = document.createElement("div");
+    var faces5 = document.getElementById("faces5");
+    headshot.id = "headshotE" + d;
+    faces5.appendChild(headshot);
+    headshot.classList.add("headshot");
+
+    var description = document.createElement("div");
+
+    description.id = "descriptionE" + d;
+    headshot.appendChild(description);
+    description.classList.add("description-invisible");
+
+
+    description.addEventListener("click", function() {
+        description.classList.add("description-apparent");
+
+
+    })
+
+    description.addEventListener("animationend", function() {
+        description.classList.remove("description-apparent");
+    })
+
+
+
+
+    var name = document.createElement("div");
+    document.getElementById("headshotE" + i).appendChild(name);
+    name.classList.add("name");
+    name.id = "nameE" + i;
+
+
+} // end of function makeHeadshot5
+
+for (i = 0; i < 4; i++) { makeHeadshot5(i)};
+
+
+document.getElementById('nameE0').innerText = "Gamu";
+
+document.getElementById('nameE1').innerText = "Ummul";
+
+document.getElementById('nameE2').innerText = "Lola";
+
+document.getElementById('nameE3').innerText = "Shreyaan";
+
+
+
 
 function makeHeadshot4(d) {
     var headshot = document.createElement("div");
-    var faces2 = document.getElementById("faces4")
+    var faces4 = document.getElementById("faces4")
     headshot.id = "headshotD" + d;
-    faces2.appendChild(headshot);
+    faces4.appendChild(headshot);
     headshot.classList.add("headshot");
 
     var description = document.createElement("div");
