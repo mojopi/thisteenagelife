@@ -336,6 +336,10 @@ color:rgb(101, 111, 91);*/
 
 }
 
+#ambassador{
+  font-size:1.8vw;
+}
+
 
 
 
@@ -1942,6 +1946,10 @@ background-color: blue;
         font-size:3vw;
         width:15%;
     }
+
+    #ambassador{
+  font-size:2.7vw;
+}
 
 
 #aboutWriting{

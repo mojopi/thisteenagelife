@@ -1,6 +1,6 @@
 
 
-alert("🎙️Are you interested in joining This Teenage Life?! If so, fill out our interest form! (Link on the menu bar on the left!)🎙️");
+alert("🎙️Wanna join This Teenage Life's Ambassador Program?! Fill out our interest form link on the menu bar on the left!)🎙️");
 
 
 function makeHeadshot5(d) {
