@@ -243,8 +243,17 @@ color:rgb(101, 111, 91);*/
     background-image: url(./imgs/taylorSwift.png);
 }
 
+#findingYourStyle {
+    background-image: url(./imgs/findingYourStyle.png);
+}
+
+#intrusiveThoughts2 {
+    background-image: url(./imgs/overthinkingPart2.png);
+}
+
+
 #intrusiveThoughts1 {
-    background-image: url(./imgs/intrusiveThoughts1.png);
+    background-image: url(./imgs/overthinkingpart1.png);
 }
 
 #selfCare {
@@ -630,7 +639,7 @@ background-color: blue;
 }
 
 #productivityCulture {
-    background-image: url(./imgs/productivityCulture.png);
+    background-image: url(./imgs/productivity.png);
 }
 
 #BHM {
