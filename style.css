@@ -260,6 +260,13 @@ color:rgb(101, 111, 91);*/
 
 }
 
+#hobbies {
+    background-image: url(./imgs/hobbies.png);
+}
+
+#oneYearOneWord {
+    background-image: url(./imgs/oneYearOneWord.png);
+}
 
 #intrusiveThoughts1 {
     background-image: url(./imgs/overthinkingPart1.png);
