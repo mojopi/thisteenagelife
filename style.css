@@ -98,13 +98,13 @@ color:rgb(101, 111, 91);*/
     background-color:rgba(255, 255, 255, 0.5); 
     color:rgb(88, 88, 88);
     font-size:4.7vw; 
-    font-family:'Chelsea Market', cursive;"
+    font-family:'Chelsea Market', cursive;
 }
 
 
 #episodes {
-    top: 700%;
-    height: 9100%;
+/*    top: 700%;
+*/    height: 10000%;
     background-repeat: repeat;
     /* padding-left: 20%;
     padding-top: 5%;*/
@@ -113,25 +113,25 @@ color:rgb(101, 111, 91);*/
 
 #guides {
 
-    top: 9600%;
-    height: 1500%;
+/*    top: 1000%;
+*/    height: 1500%;
 
 }
 
 #testimonies {
-    top: 11100%;
-    height: 400%;
+/*    top: 21000%;
+*/    height: 400%;
 }
 
 #team {
-    top: 11500%;
-    height: 1000%;
+    top: 600%;
+    height: 1100%;
 
 }
 
 #media {
-    top: 12500%;
-    height: 1200%;
+/*    top: 22400%;
+*/    height: 1200%;
 
 }
 
@@ -239,6 +239,17 @@ color:rgb(101, 111, 91);*/
 
 }*/
 
+
+/*EPISODE STYLING
+*/
+
+#wordWall{
+    font-family:courier;
+    color:rgb(111, 111, 111);
+    font-size:20px;
+  
+    position:relative;
+}
 #taylorSwift {
     background-image: url(./imgs/taylorSwift.png);
 }
@@ -432,7 +443,7 @@ a {
     font-family: 'EB Garamond', serif;
     font-size: 2.2vw;
     /*    color: rgb(105, 105, 105);
-*/
+
     /*    padding-top: 3%;
 */
 }
@@ -1005,6 +1016,10 @@ background-color: blue;
 
 
 
+}
+
+#contact{
+    top:1500%;
 }
 
 #contact-info {
@@ -1965,15 +1980,34 @@ background-color: blue;
 
 }
 
+#episodePage{
+    top:0%;
+    height:10000%;
+    width:100%;
+}
+
+#mediaPage{
+    top:0%;
+    height:1000%;
+}
 
 
 
-
-
+/*@media screen and (max-device-width: 640px) {
+*/
 @media (max-device-width: 667px) {
 
 /*    p{font-size:4vw;}
 */
+    body{
+width:100%;
+background-image:url(imgs/purple-background1.png);
+background-size:cover;
+}
+section{
+    background-image:url();
+}
+
     #bar{
         font-size:3vw;
         width:15%;
@@ -2028,34 +2062,40 @@ background-color: blue;
     }*/
 
     #episodes {
-        top: 500%;
         height: 5000%;
+        width:100%;
     }
+     #episodePage {
+        width:100%;
+    }
+
 
 
     #guides {
 
-        top: 5500%;
-        height: 2000%;
+/*        top: 5500%;
+*/      /*  height: 2000%;*/
 
     }
 
       #testimonies {
-        top: 7500%;
-        height: 200%;
+/*        top: 7500%;
+*/        /*height: 200%;*/
     }
 
      #team {
-        top: 7700%;
-        height: 500%;
-    }
+/*        top: 7700%;
+*/        
+/*height: 500%;
+*/    }
 
   
 
       #media {
-        top: 8200%;
-        height: 700%;
-    }
+/*        top: 8200%;
+*/        
+/*height: 700%;
+*/    }
 
 
     #episode-text{

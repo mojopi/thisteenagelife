@@ -1,6 +1,6 @@
 
 
-alert("🎙️Wanna join This Teenage Life's Ambassador Program?! Fill out our interest form link on the menu bar on the left!)🎙️");
+// alert("🎙️Wanna join This Teenage Life's Ambassador Program?! Fill out our interest form link on the menu bar on the left!)🎙️");
 
 
 function makeHeadshot5(d) {
@@ -450,4 +450,6 @@ document.getElementById('description37').innerHTML = "beauty is not in the face;
 
 document.getElementById('name38').innerText = "Jade";
 document.getElementById('description38').innerHTML = "";
+
+
 
