@@ -275,6 +275,10 @@ color:rgb(101, 111, 91);*/
     background-image: url(./imgs/hobbies.png);
 }
 
+#safeAdult {
+    background-image: url(./imgs/safeAdult.png);
+}
+
 #oneYearOneWord {
     background-image: url(./imgs/oneYearOneWord.png);
 }
