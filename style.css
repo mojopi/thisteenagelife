@@ -125,7 +125,7 @@ color:rgb(101, 111, 91);*/
 
 #team {
     top: 600%;
-    height: 1100%;
+    height: 1500%;
 
 }
 
@@ -277,6 +277,17 @@ color:rgb(101, 111, 91);*/
 
 #safeAdult {
     background-image: url(./imgs/safeAdult.png);
+}
+
+#cliques {
+    background-image: url(./imgs/cliques.png);
+}
+#dressCode {
+    background-image: url(./imgs/dressCode.png);
+}
+
+#playlist {
+    background-image: url(./imgs/playlist.png);
 }
 
 #oneYearOneWord {
