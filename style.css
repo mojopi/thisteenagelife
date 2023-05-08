@@ -271,12 +271,29 @@ color:rgb(101, 111, 91);*/
 
 }
 
+
+#socialAnxiety {
+    background-image: url(./imgs/socialAnxiety.png);
+}
+
+#nostalgia {
+    background-image: url(./imgs/nostalgia.png);
+}
+
 #hobbies {
     background-image: url(./imgs/hobbies.png);
 }
-
-#safeAdult {
+ 
+ #safeAdult {
     background-image: url(./imgs/safeAdult.png);
+}
+
+#boyz {
+    background-image: url(./imgs/boyz.png);
+}
+
+#writingPart1 {
+    background-image: url(./imgs/writingPart1.png);
 }
 
 #cliques {
