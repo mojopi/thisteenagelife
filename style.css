@@ -73,6 +73,13 @@ color:rgb(101, 111, 91);*/
 
 }
 
+.episodeTitle{
+    color:rgb(88,88,88); 
+    font-size:4vw; 
+    font-family: 'Unlock', cursive;
+
+}
+
 .guideHeading{
     color:rgb(88,88,88); 
     font-size:2vw; 
@@ -276,6 +283,10 @@ color:rgb(101, 111, 91);*/
     background-image: url(./imgs/collegeProcess1.png);
 }
 
+
+#summerReading {
+    background-image: url(./imgs/summerReading.png);
+}
 
 #socialAnxiety {
     background-image: url(./imgs/socialAnxiety.png);
