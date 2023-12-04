@@ -272,6 +272,21 @@ color:rgb(101, 111, 91);*/
     background-image: url(./imgs/checkingIn.png);
 }
 
+#religiousLGBTQ{
+    background-image:url(./imgs/religiousLGBTQ.png);
+
+}
+
+#healingLearning {
+    background-image: url(./imgs/healingLearning.png);
+}
+
+
+#friendBreakUps {
+    background-image: url(./imgs/friendBreakUps.png);
+}
+
+
 #compassion {
     background-image: url(./imgs/compassion.png);
 }
