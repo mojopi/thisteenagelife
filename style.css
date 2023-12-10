@@ -281,6 +281,10 @@ color:rgb(101, 111, 91);*/
     background-image: url(./imgs/healingLearning.png);
 }
 
+#selfTalk {
+    background-image: url(./imgs/selfTalk.png);
+}
+
 
 #friendBreakUps {
     background-image: url(./imgs/friendBreakUps.png);
