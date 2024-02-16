@@ -281,6 +281,27 @@ color:rgb(101, 111, 91);*/
     background-image: url(./imgs/healingLearning.png);
 }
 
+#crushes1 {
+    background-image: url(./imgs/crushes2.png);
+}
+
+#poetry {
+    background-image: url(./imgs/poetry.png);
+}
+
+#bullied2 {
+    background-image: url(./imgs/bullied2.png);
+}
+
+
+#ny2024 {
+    background-image: url(./imgs/newYear2024.png);
+}
+
+#animals2 {
+    background-image: url(./imgs/turtle.png);
+}
+
 #selfTalk {
     background-image: url(./imgs/selfTalk.png);
 }
@@ -788,6 +809,8 @@ background-color: blue;
 
 #depression {
     background-image: url(./imgs/depression.png);
+}#crushes {
+    background-image: url(./imgs/crushes.png);
 }
 
 #crushes {
