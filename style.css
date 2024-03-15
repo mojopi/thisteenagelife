@@ -257,6 +257,18 @@ color:rgb(101, 111, 91);*/
   
     position:relative;
 }
+
+#hiddenDisability2 {
+    background-image: url(./imgs/hiddenDisability2.png);
+}
+
+#pandemic4 {
+    background-image: url(./imgs/pandemic4.png);
+}
+
+#ecoanxiety {
+    background-image: url(./imgs/ecoanxiety.png);
+}
 #taylorSwift {
     background-image: url(./imgs/taylorSwift.png);
 }
@@ -281,7 +293,7 @@ color:rgb(101, 111, 91);*/
     background-image: url(./imgs/healingLearning.png);
 }
 
-#crushes1 {
+#crushes2 {
     background-image: url(./imgs/crushes2.png);
 }
 
