@@ -269,6 +269,18 @@ color:rgb(101, 111, 91);*/
 #ecoanxiety {
     background-image: url(./imgs/ecoanxiety.png);
 }
+
+#grownDaydreams {
+    background-image: url(./imgs/grownDaydreams.png);
+}
+
+#stressManagement {
+    background-image: url(./imgs/stressManagement.png);
+}
+
+#groupChats {
+    background-image: url(./imgs/groupChats.png);
+}
 #taylorSwift {
     background-image: url(./imgs/taylorSwift.png);
 }
